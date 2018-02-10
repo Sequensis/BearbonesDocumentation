@@ -1,15 +1,29 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
-  "start_url": "./index.html",
+  "name": "Bearbones CSS Framework",
+  "short_name": "Bearbones",    
+  "version": "0.1.0",
+  "default_locale": "en-gb",    
+  "description": "",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "background_color": "#0A344D",
+  "theme_color": "#0A344D",
+  "icons": [{
+      "src": "./favicons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+  }],
+  "author": {
+    "name": "Daniel Humenko",
+    "website": "https://www.humenko.co.uk",
+    "github": "https://github.com/humenko"
+  },
+  "gcm_sender_id": "",
+  "gcm_user_visible_only": true
 }

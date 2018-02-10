@@ -1,0 +1,94 @@
+@import 'core/all';
+@import 'components/footer/all';
+@import 'layout/all';
+.bb-btn.icon span,
+a.bb-btn.icon span {
+	width: auto;
+	height: auto;
+}
+
+.bb-grid .column:last-child {
+	padding-bottom: 1rem;
+}
+
+.bb-navbar {
+	opacity: 0;
+	transition: transform $transition-effect $transition-duration, opacity $transition-effect $transition-duration;
+	transform: translateY(-2rem);
+	pointer-events: none;
+}
+
+.doc-navbar {
+	opacity: 0;
+	transition: transform $transition-effect $transition-duration, opacity $transition-effect $transition-duration;
+	transform: translateY(2rem);
+	pointer-events: none;
+}
+
+.bb-navbar.display,
+.doc-navbar.display {
+	opacity: 1;
+	transform: translateY(0);
+	pointer-events: auto;
+}
+
+@include respond-to('md') {
+	.section {
+		padding-right: constant(safe-area-inset-right);
+		padding-left: constant(safe-area-inset-left);
+	}
+}
+
+.bottom {
+	&.fixed {
+		position: fixed;
+		top: auto;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 100;
+		padding-bottom: constant(safe-area-inset-bottom);
+	}
+	&.shadow {
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .12);
+		.items.active {
+			box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .12);
+		}
+	}
+}
+
+.text-center-lg {
+	@include respond-to('lg') {
+		text-align: center;
+	}
+}
+
+.doc-navbar {
+	.bb-btn {
+		flex-direction: column;
+		border-color: transparent;
+		background: transparent;
+		color: $base-color;
+		font-size: $font-size-sm;
+		&:hover,
+		&.active {
+			border-color: transparent;
+			background: transparent;
+			color: $secondary-color;
+		}
+		&.icon span {
+			margin: 0 0 .5rem 0;
+			font-size: $font-size-lg;
+		}
+	}
+}
+
+.bb-card {
+	@include border($card-border-width, $card-border-style, $card-border-color);
+	&.primary {
+		@include border($card-border-width, $card-border-style, $primary-color);		
+	}
+	&.secondary {
+		@include border($card-border-width, $card-border-style, $secondary-color);		
+	}	
+}
