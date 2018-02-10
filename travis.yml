@@ -12,11 +12,14 @@ script:
   - npm run deploy
 
 deploy:
-    provider: github
+    provider: pages
     skip-cleanup: true
     github-token: $GITHUB_TOKEN
     keep-history: true
     committer-from-gh: true
+    target-branch: master
+    on:
+      branch: master
 
 notifications:
   email:
