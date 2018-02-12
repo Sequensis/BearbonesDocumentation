@@ -90,7 +90,7 @@ class Home extends Component {
                     <div className='bb-grid md align-items-center'>
                         <div className='column column-sm'>
                             <h2 className='title text-primary'>Bearbones gives you the headstart.</h2>
-                            <p className='subtitle text-primary'>The components are already built, the documentation is <Link to='/documentaion' className='link text-primary text-underline'>here</Link>. All you need to do is edit the variables. So, what are you waiting for?</p>                    
+                            <p className='subtitle text-primary'>The components are already built, the documentation is <Link to='/documentation' className='link text-primary text-underline'>here</Link>. All you need to do is edit the variables. So, what are you waiting for?</p>                    
                         </div>
                         <div className='column column-6 column-offset-3-lg'>
                             <IllustrationPainter />

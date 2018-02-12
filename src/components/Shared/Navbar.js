@@ -6,9 +6,9 @@ class Navbar extends Component {
     render() {
       return (
         <div className="container">
-            <nav className="bb-navbar fixed bottom shadow doc-navbar" id="bottom-navbar">
+            <nav className="bb-navbar fixed bottom shadow doc-navbar display" id="bottom-navbar">
                 <div className="bb-btns full-x no-border-radius">
-                    <Link to="/" className="bb-btn icon">
+                    <Link to="/home" className="bb-btn icon">
                         <span>
                             <i className="fal fa-home"></i>
                         </span>
