@@ -15,8 +15,8 @@
 		padding: 0;
 		width: 50%;
 		@include respond-to('lg') {
-			width: 75%
-		}			
+			width: 75%;
+		}
 	}
 	.head {
 		z-index: 10;
@@ -108,7 +108,6 @@
 	}
 }
 
-
 .doc-svg {
 	.head,
 	.bones {
@@ -125,12 +124,12 @@
 		animation: eye-flicker 4s infinite;
 
 		fill: $base-color;
-    }
+	}
 	.arm {
 		animation: arm-movement 6s infinite;
 
 		transform: translateY(0);
-	}    
+	}
 }
 
 @keyframes head-rotate-movement {

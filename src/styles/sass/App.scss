@@ -1,4 +1,6 @@
 @import 'core/all';
+@import 'components/box/all';
+@import 'components/code/all';
 @import 'components/footer/all';
 @import 'layout/all';
 .bb-btn.icon span,
@@ -13,14 +15,16 @@ a.bb-btn.icon span {
 
 .bb-navbar {
 	opacity: 0;
-	transition: transform $transition-effect $transition-duration, opacity $transition-effect $transition-duration;
+	transition: transform $transition-effect $transition-duration,
+	opacity $transition-effect $transition-duration;
 	transform: translateY(-2rem);
 	pointer-events: none;
 }
 
 .doc-navbar {
 	opacity: 0;
-	transition: transform $transition-effect $transition-duration, opacity $transition-effect $transition-duration;
+	transition: transform $transition-effect $transition-duration,
+	opacity $transition-effect $transition-duration;
 	transform: translateY(2rem);
 	pointer-events: none;
 }
@@ -86,9 +90,9 @@ a.bb-btn.icon span {
 .bb-card {
 	@include border($card-border-width, $card-border-style, $card-border-color);
 	&.primary {
-		@include border($card-border-width, $card-border-style, $primary-color);		
+		@include border($card-border-width, $card-border-style, $primary-color);
 	}
 	&.secondary {
-		@include border($card-border-width, $card-border-style, $secondary-color);		
-	}	
+		@include border($card-border-width, $card-border-style, $secondary-color);
+	}
 }

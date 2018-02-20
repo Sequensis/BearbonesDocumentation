@@ -1,0 +1,47 @@
+.bb-box {
+	&.example {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		border-color: $light-grey;
+		background: transparent;
+		color: $base-color;
+
+		@include respond-to('md') {
+			flex-direction: row;
+		}
+		.doc-preview,
+		.doc-snippet {
+			padding: 1.5rem 1rem;
+
+			@include respond-to('md') {
+				width: 50%;
+			}
+			pre {
+				margin: 0;
+			}
+		}
+		.doc-preview {
+			@include respond-to('md') {
+				padding-right: $box-spacing-x;
+			}
+		}
+		.doc-snippet {
+			padding-bottom: 2.5rem;
+			background: $lighter-grey;
+
+			@include respond-to('md') {
+				border-top: none;
+			}
+		}
+		.doc-copy {
+			position: absolute;
+			right: -$border-width;
+			bottom: -$border-width;
+			border: none;
+			border-radius: 0;
+			border-top-left-radius: $btn-border-radius;
+			border-bottom-right-radius: $btn-border-radius;
+		}
+	}
+}

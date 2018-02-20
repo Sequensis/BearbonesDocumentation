@@ -1,0 +1,88 @@
+.hljs {
+	display: block;
+	overflow-x: auto;
+	background: transparent;
+	color: $base-color;
+}
+
+.hljs-name,
+.hljs-strong {
+	font-weight: bold;
+}
+
+.hljs-code,
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-tag {
+	color: $primary-color;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-selector-class {
+	color: purple;
+}
+
+.hljs-string,
+.hljs-bullet {
+	color: $positive-color;
+}
+
+.hljs-type,
+.hljs-title,
+.hljs-section,
+.hljs-attr,
+.hljs-quote,
+.hljs-built_in,
+.hljs-builtin-name {
+	color: $negative-color;
+}
+
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet {
+	color: purple;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+	color: purple;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-code {
+	color: purple;
+}
+
+.hljs-regexp,
+.hljs-link {
+	color: purple;
+}
+
+.hljs-meta {
+	color: purple;
+}
+
+.hljs-deletion {
+	background-color: purple;
+	color: purple;
+}
+
+.hljs-addition {
+	background-color: purple;
+	color: purple;
+}
+
+.hljs a {
+	color: inherit;
+	&:focus,
+	&:hover {
+		color: inherit;
+		text-decoration: underline;
+	}
+}

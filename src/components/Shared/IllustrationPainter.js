@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 
 class IllustrationPainter extends Component {
-    render() {
-      return (
-        <div>
-        </div>
-      );
-    }
+  render() {
+    return <div />;
   }
+}
 
-export default IllustrationPainter
+export default IllustrationPainter;
