@@ -96,3 +96,9 @@ a.bb-btn.icon span {
 		@include border($card-border-width, $card-border-style, $secondary-color);
 	}
 }
+
+.subtitle {
+	&.sm {
+		font-size: $font-size-lg;
+	}
+}
