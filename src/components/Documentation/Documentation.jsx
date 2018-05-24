@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import DocumentationBox from '../Shared/DocumentationBox';
 
 class Documentation extends Component {
   render() {
@@ -20,418 +20,176 @@ class Documentation extends Component {
               <h3 className="text-primary">Initialisation</h3>
             </div>
             <div className="column one-third">
-              <div className="bb-card primary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a className="link">Getting started</a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Getting Started"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card primary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a className="link" href="#">
-                        Importing
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Importing"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card primary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a className="link" href="#">
-                        Variables
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Variables"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
           </div>
           <div className="bb-grid md">
             <div className="column column-16">
-              <h3 className="text-secondary">Components</h3>
+              <h3 className="text-primary">Components</h3>
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/accordion"
-                      >
-                        Accordion
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/accordion"
+                title="Accordion"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/alert"
-                      >
-                        Alert
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/alert"
+                title="Alert"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/animation"
-                      >
-                        Animation
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/animation"
+                title="Animation"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/box"
-                      >
-                        Box
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/box"
+                title="Box"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/breadcrumb"
-                      >
-                        Breadcrumb
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/breadcrumb"
+                title="Breadcrumb"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <Link
-                        className="link"
-                        to="/documentation/components/button"
-                      >
-                        Button
-                      </Link>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/button"
+                title="Button"
+                subTitle="An essential element for any design, providing the user a simple way to trigger an event."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/card"
-                      >
-                        Card
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/card"
+                title="Card"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/divider"
-                      >
-                        Divider
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/divider"
+                title="Divider"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/dropdown"
-                      >
-                        Dropdown
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/dropdown"
+                title="Dropdown"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/field"
-                      >
-                        Field
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/field"
+                title="Field"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/footer"
-                      >
-                        Footer
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/footer"
+                title="Footer"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/hero"
-                      >
-                        Hero
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/hero"
+                title="Hero"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/media"
-                      >
-                        Media
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/media"
+                title="Media"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/navbar"
-                      >
-                        Navbar
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/navbar"
+                title="Navbar"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/pagination"
-                      >
-                        Pagination
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/pagination"
+                title="Pagination"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/stat"
-                      >
-                        Stat
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/stat"
+                title="Stat"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/tab"
-                      >
-                        Tab
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/tab"
+                title="Tab"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/components/table"
-                      >
-                        Table
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="components/table"
+                title="Table"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
           </div>
           <div className="bb-grid md">
@@ -439,129 +197,57 @@ class Documentation extends Component {
               <h3 className="text-primary">Layout</h3>
             </div>
             <div className="column one-third">
-              <div className="bb-card primary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/layout/basics"
-                      >
-                        Basics
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Basic"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card primary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/layout/grid"
-                      >
-                        Grid
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Grid"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card primary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/layout/family-grid"
-                      >
-                        Family Grid
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Family grid"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
           </div>
           <div className="bb-grid md">
             <div className="column column-16">
-              <h3 className="text-secondary">Utilities</h3>
+              <h3 className="text-primary">Utilities</h3>
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/utilities/display"
-                      >
-                        Display
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Display"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/utilities/spacing"
-                      >
-                        Spacing
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Spacing"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
             <div className="column one-third">
-              <div className="bb-card secondary">
-                <div className="card-content">
-                  <div className="card-body">
-                    <h4>
-                      <a
-                        className="link"
-                        href="{{root}}/documentation/utilities/typography"
-                      >
-                        Typography
-                      </a>
-                    </h4>
-                    <p className="text-lg">
-                      Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
-                      iaculis mauris.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <DocumentationBox
+                link="example"
+                title="Typography"
+                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
+                nec iaculis mauris."
+              />
             </div>
           </div>
         </div>

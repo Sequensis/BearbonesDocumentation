@@ -25,6 +25,18 @@
 			@include respond-to('md') {
 				padding-right: $box-spacing-x;
 			}
+			@include respond-to-down('md') {
+				overflow-x: scroll;
+			}
+			.content {
+				@include respond-to-down('md') {
+					display: inline-flex;
+					width: 100%;
+				}
+				&:not(:first-child) {
+					margin-top: $box-spacing-y / 2;
+				}
+			}
 		}
 		.doc-snippet {
 			padding-bottom: 2.5rem;
@@ -44,4 +56,24 @@
 			border-bottom-right-radius: $btn-border-radius;
 		}
 	}
+}
+
+.doc-box {
+	position: relative;
+	display: block;
+	padding: $box-spacing-y $box-spacing-x;
+	height: 10.3125rem;
+	background: $white;
+	box-shadow: 0 1.25rem 1.5rem -1.25rem rgba(10, 10, 10, .1);
+	transition-duration: 250ms;
+	transition-property: box-shadow, transform;
+
+	@include border-radius($border-radius * 2);
+	@include hover {
+		background: rgba($secondary-color, .05);
+		box-shadow: 0 1.75rem 3rem -1.25rem rgba(10, 10, 10, .2);
+		text-decoration: none !important;
+		transform: translateY(-.25rem);
+	}
+	will-change: box-shadow, transform;
 }
