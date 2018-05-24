@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <div className="container">
         <nav
-          className="bb-navbar fixed bottom shadow doc-navbar display"
+          className="bb-navbar fixed bottom shadow doc-navbar display hidden-lg-up"
           id="bottom-navbar"
         >
           <div className="bb-btns full-x no-border-radius">

@@ -102,3 +102,16 @@ a.bb-btn.icon span {
 		font-size: $font-size-lg;
 	}
 }
+
+.bb-box {
+	 > .close {
+		position: absolute;
+		top: 1.5rem;
+		right: 1rem;
+	}
+	.close {
+		position: relative;
+		top: auto;
+		right: auto;
+	}
+}

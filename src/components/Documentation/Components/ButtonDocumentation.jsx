@@ -285,14 +285,15 @@ class ButtonDocumentation extends Component {
 							<h4 className="title">Helper</h4>
 							<div className="bb-box example">
 								<div className="doc-preview">
-									<button className="bb-btn full-x">Full width</button>
+									<button className="bb-btn full-x primary">Full width</button>
 									<br />
-									<button className="bb-btn no-border-radius">No border radius</button>
+									<button className="bb-btn no-border-radius primary">No border radius</button>
 								</div>
 								<div className="doc-snippet">
 									<Highlight className="html">
 										{'<button className="bb-btn full-x">Full width</button>'}
 									</Highlight>
+									<br />
 									<Highlight className="html">
 										{'<button className="bb-btn no-border-radius">No border radius</button>'}
 									</Highlight>
@@ -319,7 +320,41 @@ class ButtonDocumentation extends Component {
 									<button className="bb-btn primary doc-copy sm">Copy</button>
 								</div>
 							</div>
-							<h4 className="title">todo: icons / close / button group</h4>
+						</div>
+					</div>
+					<div className="bb-grid md">
+						<div className="column">
+							<div className="bb-box example">
+								<div className="doc-preview">
+									<button className="close" />
+									<button className="close primary m-x-2" />
+									<button className="close secondary" />
+									<button className="close positive m-x-2" />
+									<button className="close negative" />
+									<button className="close invert m-l-2" />
+								</div>
+								<div className="doc-snippet">
+									<Highlight className="html">{'<button class="bb-btn close"></button>'}</Highlight>
+									<Highlight className="html">
+										{'<button class="bb-btn close primary"></button>'}
+									</Highlight>
+									<Highlight className="html">
+										{'<button class="bb-btn close secondary"></button>'}
+									</Highlight>
+									<Highlight className="html">
+										{'<button class="bb-btn close positive"></button>'}
+									</Highlight>
+									<Highlight className="html">
+										{'<button class="bb-btn close negative"></button>'}
+									</Highlight>
+									<Highlight className="html">
+										{'<button class="bb-btn close invert"></button>'}
+									</Highlight>
+
+									<button className="bb-btn primary doc-copy sm">Copy</button>
+								</div>
+							</div>
+							<h4 className="title">todo: icons / button group</h4>
 						</div>
 					</div>
 				</div>

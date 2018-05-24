@@ -24,9 +24,7 @@ class Documentation extends Component {
                 <div className="card-content">
                   <div className="card-body">
                     <h4>
-                      <a className="link" href="{{root}}/installation">
-                        Getting started
-                      </a>
+                      <a className="link">Getting started</a>
                     </h4>
                     <p className="text-lg">
                       Lorem ipsum dolor sit amet, adipiscing elit. Phasellus nec
