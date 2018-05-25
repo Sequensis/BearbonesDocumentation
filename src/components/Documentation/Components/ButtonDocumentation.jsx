@@ -1,22 +1,25 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
 
-class ButtonDocumentation extends Component {
+export default class ButtonDocumentation extends Component {
   render() {
     return (
       <div className="section">
         <div className="container">
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h2 className="title">Button</h2>
               <p className="subtitle">
                 An essential element for any design, providing the user a simple
                 way to trigger an event.
               </p>
+              <Highlight className="js">
+                {"import '../bearbones/sass/components/button/all'"}
+              </Highlight>
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -42,7 +45,7 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h4 className="title">Colours</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -78,7 +81,7 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h4 className="title">Sizes</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -120,7 +123,7 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h4 className="title">Styles</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -174,7 +177,7 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
@@ -227,7 +230,7 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h4 className="title">State</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -274,9 +277,7 @@ class ButtonDocumentation extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
@@ -346,9 +347,7 @@ class ButtonDocumentation extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
@@ -394,7 +393,7 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h4 className="title">Icons</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -408,7 +407,7 @@ class ButtonDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<button class="bb-btn icon">Icon
-    <span class="chevron"></span>
+  <span class="chevron"></span>
 </button>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -417,7 +416,7 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <h4 className="title">Helper</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -426,6 +425,19 @@ class ButtonDocumentation extends Component {
                       Full width
                     </button>
                   </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {'<button class="bb-btn full-x">Full width</button>'}
+                  </Highlight>
+
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
                   <div className="content">
                     <button className="bb-btn no-border-radius primary">
                       No border radius
@@ -433,10 +445,6 @@ class ButtonDocumentation extends Component {
                   </div>
                 </div>
                 <div className="doc-snippet">
-                  <Highlight className="html">
-                    {'<button class="bb-btn full-x">Full width</button>'}
-                  </Highlight>
-                  <br />
                   <Highlight className="html">
                     {
                       '<button class="bb-btn no-border-radius">No border radius</button>'
@@ -447,9 +455,7 @@ class ButtonDocumentation extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
                   <a className="link">Link</a>
@@ -470,7 +476,8 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
+              <h4 className="title">Close</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
                   <button className="close" />
@@ -504,9 +511,7 @@ class ButtonDocumentation extends Component {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="bb-grid md">
-            <div className="column">
+            <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
                   <button className="close xs" />
@@ -541,32 +546,117 @@ class ButtonDocumentation extends Component {
             </div>
           </div>
           <div className="bb-grid md">
-            <div className="column">
-              <h4 className="title">Button Groups</h4>
+            <div className="column column-16">
+              <h3 className="title">Button Groups</h3>
+              <Highlight className="js">
+                {"import '../bearbones/sass/components/button-group/all'"}
+              </Highlight>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Horizontal</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
-                    <button className="bb-btn full-x primary">
-                      Full width
-                    </button>
-                  </div>
-                  <div className="content">
-                    <button className="bb-btn no-border-radius primary">
-                      No border radius
-                    </button>
+                    <div className="bb-btns">
+                      <button className="bb-btn primary">Button</button>
+                      <button className="bb-btn secondary">Button</button>
+                      <button className="bb-btn positive">Button</button>
+                      <button className="bb-btn negative">Button</button>
+                    </div>
                   </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {'<button class="bb-btn full-x">Full width</button>'}
+                    {`<div class="bb-btns">
+  <button class="bb-btn primary">Button</button>
+  <button class="bb-btn secondary">Button</button>
+  <button class="bb-btn positive">Button</button>
+  <button class="bb-btn negative">Button</button>
+</div>`}
                   </Highlight>
-                  <br />
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Vertical</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <div className="bb-btns vertical">
+                      <button className="bb-btn primary">Button</button>
+                      <button className="bb-btn secondary">Button</button>
+                      <button className="bb-btn positive">Button</button>
+                      <button className="bb-btn negative">Button</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="doc-snippet">
                   <Highlight className="html">
-                    {
-                      '<button class="bb-btn no-border-radius">No border radius</button>'
-                    }
+                    {`<div class="bb-btns vertical">
+  <button class="bb-btn primary">Button</button>
+  <button class="bb-btn secondary">Button</button>
+  <button class="bb-btn positive">Button</button>
+  <button class="bb-btn negative">Button</button>
+</div>`}
                   </Highlight>
-
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Helper</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <div className="bb-btns full-x">
+                      <button className="bb-btn primary">Full width</button>
+                      <button className="bb-btn secondary">Full width</button>
+                      <button className="bb-btn positive">Full width</button>
+                      <button className="bb-btn negative">Full width</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<div class="bb-btns full-x">
+  <button class="bb-btn primary">Button</button>
+  <button class="bb-btn secondary">Button</button>
+  <button class="bb-btn positive">Button</button>
+  <button class="bb-btn negative">Button</button>
+</div>`}
+                  </Highlight>
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <div className="bb-btns no-border-radius">
+                      <button className="bb-btn primary">Button</button>
+                      <button className="bb-btn secondary">Button</button>
+                      <button className="bb-btn positive">Button</button>
+                      <button className="bb-btn negative">Button</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<div class="bb-btns no-border-radius">
+  <button class="bb-btn primary">Button</button>
+  <button class="bb-btn secondary">Button</button>
+  <button class="bb-btn positive">Button</button>
+  <button class="bb-btn negative">Button</button>
+</div>`}
+                  </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>
               </div>
@@ -577,5 +667,3 @@ class ButtonDocumentation extends Component {
     );
   }
 }
-
-export default ButtonDocumentation;

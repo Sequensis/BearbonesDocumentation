@@ -99,19 +99,27 @@ a.bb-btn.icon span {
 
 .subtitle {
 	&.sm {
-		font-size: $font-size-lg;
+		font-size: $font-size-md;
+	}
+	&.lg {
+		font-size: $font-size-xl;
 	}
 }
 
-.bb-box {
-	 > .close {
-		position: absolute;
-		top: 1.5rem;
-		right: 1rem;
-	}
-	.close {
-		position: relative;
-		top: auto;
-		right: auto;
-	}
+.bb-alert .close {
+	top: $alert-spacing;
+	right: $alert-spacing / 2;
 }
+
+// .bb-box {
+// 	.close {
+// 		position: relative;
+// 		top: auto;
+// 		right: auto;
+// 	}
+// 	 > .close {
+// 		position: absolute;
+// 		top: 1.5rem;
+// 		right: 1rem;
+// 	}
+// }
