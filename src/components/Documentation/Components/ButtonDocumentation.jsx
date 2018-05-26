@@ -14,7 +14,7 @@ export default class ButtonDocumentation extends Component {
                 way to trigger an event.
               </p>
               <Highlight className="js">
-                {"import '../bearbones/sass/components/button/all'"}
+                {'import "../bearbones/sass/components/button/all"'}
               </Highlight>
             </div>
           </div>
@@ -549,7 +549,7 @@ export default class ButtonDocumentation extends Component {
             <div className="column column-16">
               <h3 className="title">Button Groups</h3>
               <Highlight className="js">
-                {"import '../bearbones/sass/components/button-group/all'"}
+                {'import "../bearbones/sass/components/button-group/all"'}
               </Highlight>
             </div>
           </div>

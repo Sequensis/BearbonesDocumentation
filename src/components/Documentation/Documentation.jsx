@@ -4,7 +4,7 @@ import DocumentationBox from '../Shared/DocumentationBox';
 class Documentation extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section doc">
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-sm">

@@ -13,7 +13,7 @@ export default class BoxDocumentation extends Component {
                 This element is used to provide feedback messages for users.
               </p>
               <Highlight className="js">
-                {"import '../bearbones/sass/components/alert/all'"}
+                {'import "../bearbones/sass/components/alert/all"'}
               </Highlight>
             </div>
           </div>
@@ -25,7 +25,8 @@ export default class BoxDocumentation extends Component {
                   <div className="content">
                     <div className="bb-alert">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
                       </p>
                     </div>
                   </div>
@@ -33,7 +34,7 @@ export default class BoxDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<div class="bb-alert">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -49,35 +50,40 @@ export default class BoxDocumentation extends Component {
                   <div className="content">
                     <div className="bb-alert invert">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert primary">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert secondary">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert positive">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert negative">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
                       </p>
                     </div>
                   </div>
@@ -85,27 +91,27 @@ export default class BoxDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<div class="bb-alert invert">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert primary">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert secondary">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert positive">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert negative">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -121,7 +127,8 @@ export default class BoxDocumentation extends Component {
                   <div className="content">
                     <div className="bb-alert primary">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
                       </p>
                       <div className="close primary" />
                     </div>
@@ -130,7 +137,7 @@ export default class BoxDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<div class="bb-alert primary">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
   <div class="close primary"></div>  
 </div>`}
                   </Highlight>
