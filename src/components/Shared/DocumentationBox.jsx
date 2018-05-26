@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Navbar extends Component {
+export default class DocumentationBox extends Component {
   render() {
     return (
       <Link className="doc-box" to={`/documentation/${this.props.link}`}>
@@ -12,4 +13,8 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+DocumentationBox.propTypes = {
+  link: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired
+};

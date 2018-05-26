@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 export default class BoxDocumentation extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section doc">
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
               <h2 className="title">Box</h2>
               <p className="subtitle">
-                This element is used as a basic container that full widths to
+                This component is used as a basic container that full widths to
                 any element it is within.
               </p>
               <Highlight className="js">

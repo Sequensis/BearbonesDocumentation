@@ -4,13 +4,13 @@ import Highlight from 'react-highlight';
 export default class BoxDocumentation extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section doc">
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
               <h2 className="title">Alert</h2>
               <p className="subtitle">
-                This element is used to provide feedback messages for users.
+                This component is used to provide feedback messages for users.
               </p>
               <Highlight className="js">
                 {'import "../bearbones/sass/components/alert/all"'}

@@ -111,6 +111,10 @@ a.bb-btn.icon span {
 	right: $alert-spacing / 2;
 }
 
+.section.doc {
+	background: $lighter-grey;
+}
+
 // .bb-box {
 // 	.close {
 // 		position: relative;
@@ -122,4 +126,34 @@ a.bb-btn.icon span {
 // 		top: 1.5rem;
 // 		right: 1rem;
 // 	}
+// }
+
+.doc-page-animation-appear {
+	opacity: 0;
+	transform: translateY(20px);
+	&.doc-page-animation-appear-active {
+		opacity: 1;
+		transition: all .25s linear;
+		transform: translateY(0);
+	}
+}
+// .doc-page-animation-enter {
+// 	opacity: 0;
+// 	transform: translateY(12px);
+// }
+// .doc-page-animation-enter.doc-page-animation-enter-active {
+// 	opacity: 1;
+// 	transition: all .25s linear .4s;
+// 	transform: translateY(0);
+// }
+// .doc-page-animation-leave {
+// 	opacity: 1;
+// 	transform: translateY(0);
+// }
+// .doc-page-animation-leave.doc-page-animation-leave-active {
+// 	position: absolute;
+// 	width: 100%;
+// 	opacity: 0;
+// 	transition: all .25s linear;
+// 	transform: translateY(120px);
 // }

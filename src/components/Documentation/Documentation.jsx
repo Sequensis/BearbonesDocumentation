@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import DocumentationBox from '../Shared/DocumentationBox';
 
-class Documentation extends Component {
+export default class Documentation extends Component {
   render() {
     return (
       <div className="section doc">
@@ -60,8 +60,7 @@ class Documentation extends Component {
               <DocumentationBox
                 link="components/alert"
                 title="Alert"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="This component is used to provide feedback messages for users."
               />
             </div>
             <div className="column one-third">
@@ -76,8 +75,8 @@ class Documentation extends Component {
               <DocumentationBox
                 link="components/box"
                 title="Box"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="This component is used as a basic container that full widths to
+                any element it is within."
               />
             </div>
             <div className="column one-third">
@@ -92,7 +91,7 @@ class Documentation extends Component {
               <DocumentationBox
                 link="components/button"
                 title="Button"
-                subTitle="An essential element for any design, providing the user a simple way to trigger an event."
+                subTitle="An essential component for any design, providing the user a simple way to trigger an event."
               />
             </div>
             <div className="column one-third">
@@ -255,5 +254,3 @@ class Documentation extends Component {
     );
   }
 }
-
-export default Documentation;

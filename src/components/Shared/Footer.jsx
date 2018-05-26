@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Footer extends Component {
+export default class Footer extends Component {
   render() {
     return (
       <footer className="bb-footer">
@@ -64,5 +64,3 @@ class Footer extends Component {
     );
   }
 }
-
-export default Footer;

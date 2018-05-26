@@ -4,14 +4,14 @@ import Highlight from 'react-highlight';
 export default class ButtonDocumentation extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section doc">
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
               <h2 className="title">Button</h2>
               <p className="subtitle">
-                An essential element for any design, providing the user a simple
-                way to trigger an event.
+                An essential component for any design, providing the user a
+                simple way to trigger an event.
               </p>
               <Highlight className="js">
                 {'import "../bearbones/sass/components/button/all"'}
