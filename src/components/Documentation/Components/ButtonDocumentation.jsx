@@ -399,16 +399,45 @@ export default class ButtonDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <button className="bb-btn icon">
+                      <span>
+                        <i className="fas fa-paw" />
+                      </span>
+                    </button>
+                    <button className="bb-btn m-x-2 icon">
                       Icon
-                      <span className="chevron" />
+                      <span className="p-l-2">
+                        <i className="fas fa-paw" />
+                      </span>
+                    </button>
+                    <button className="bb-btn icon">
+                      <span className="p-r-2">
+                        <i className="fas fa-paw" />
+                      </span>
+                      Icon
                     </button>
                   </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<button class="bb-btn icon">Icon
-  <span class="chevron"></span>
+                    {`<button class="bb-btn icon">
+  <span>
+    <i class="fas fa-paw"></i>
+  </span>
 </button>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<button class="bb-btn icon">Icon
+  <span class="p-l-2">
+    <i class="fas fa-paw"></i>
+  </span>
+</button>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<button class="bb-btn icon">
+  <span class="p-l-2">
+    <i class="fas fa-paw"></i>
+  </span>
+Icon</button>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>

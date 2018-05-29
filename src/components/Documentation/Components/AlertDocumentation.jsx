@@ -25,8 +25,8 @@ export default class BoxDocumentation extends Component {
                   <div className="content">
                     <div className="bb-alert">
                       <p>
-                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
                       </p>
                     </div>
                   </div>
@@ -34,7 +34,7 @@ export default class BoxDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<div class="bb-alert">
-  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -50,40 +50,40 @@ export default class BoxDocumentation extends Component {
                   <div className="content">
                     <div className="bb-alert invert">
                       <p>
-                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert primary">
                       <p>
-                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert secondary">
                       <p>
-                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert positive">
                       <p>
-                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
                       </p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-alert negative">
                       <p>
-                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
                       </p>
                     </div>
                   </div>
@@ -91,27 +91,27 @@ export default class BoxDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<div class="bb-alert invert">
-  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert primary">
-  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert secondary">
-  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert positive">
-  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert negative">
-  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -127,8 +127,8 @@ export default class BoxDocumentation extends Component {
                   <div className="content">
                     <div className="bb-alert primary">
                       <p>
-                        <strong>Alert,</strong> Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
                       </p>
                       <div className="close primary" />
                     </div>
@@ -137,7 +137,7 @@ export default class BoxDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<div class="bb-alert primary">
-  <p><strong>Alert,</strong> Only 8 species of bears are extant.</p>
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
   <div class="close primary"></div>  
 </div>`}
                   </Highlight>

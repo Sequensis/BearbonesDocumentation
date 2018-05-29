@@ -171,3 +171,21 @@ body {
 		padding-bottom: 0;
 	}
 }
+
+.bb-box {
+	.text-doc {
+		color: $base-color !important;
+	}
+}
+
+.bb-btn.icon {
+	justify-content: space-between;
+	span {
+		margin: 0;
+	}
+}
+
+.bb-divider + p:not(:first-child) {
+	padding-top: 0;
+}
+// remove icon//
