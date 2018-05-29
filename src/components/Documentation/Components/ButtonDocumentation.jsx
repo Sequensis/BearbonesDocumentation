@@ -4,7 +4,7 @@ import Highlight from 'react-highlight';
 export default class ButtonDocumentation extends Component {
   render() {
     return (
-      <div className="section doc">
+      <div className="section p-t-0">
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">

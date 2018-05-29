@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="container">
-        <nav className="bb-navbar fixed display" id="top-navbar">
+        <nav className="bb-navbar display" id="top-navbar">
           <div className="brand justify-content-between">
             <Link to="/home" className="item">
               <img src={BearbonesLogo} alt="Bearbones logo" />

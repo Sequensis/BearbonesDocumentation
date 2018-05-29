@@ -4,7 +4,7 @@ import DocumentationBox from '../Shared/DocumentationBox';
 export default class Documentation extends Component {
   render() {
     return (
-      <div className="section doc">
+      <div className="section p-t-0">
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-sm">
@@ -106,8 +106,7 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/divider"
                 title="Divider"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="This component is used to visually separate content for the user."
               />
             </div>
             <div className="column one-third">
