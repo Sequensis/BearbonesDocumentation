@@ -111,7 +111,7 @@ a.bb-btn.icon span {
 	right: $alert-spacing / 2;
 }
 
-.section.doc {
+body {
 	background: $lighter-grey;
 }
 
@@ -128,32 +128,46 @@ a.bb-btn.icon span {
 // 	}
 // }
 
-.doc-page-animation-appear {
+.doc-page-animation-enter {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
 	opacity: 0;
-	transform: translateY(20px);
-	&.doc-page-animation-appear-active {
-		opacity: 1;
-		transition: all .25s linear;
-		transform: translateY(0);
+	transform: translateY(.5rem);
+}
+.doc-page-animation-enter.doc-page-animation-enter-active {
+	opacity: 1;
+	transition: all .25s ease-in-out;
+	transition-delay: .25s;
+	transform: translateY(0);
+
+	will-change: opacity, transform;
+}
+.doc-page-animation-exit {
+	position: absolute;
+	width: 100%;
+	opacity: 1;
+	transform: translateY(0);
+}
+.doc-page-animation-exit.doc-page-animation-exit-active {
+	opacity: 0;
+	transition: all .25s ease-in-out;
+	transform: translateY(.5rem);
+
+	will-change: opacity, transform;
+}
+
+.bb-breadcrumb {
+	text-transform: capitalize;
+	ul {
+		padding: 0;
 	}
 }
-// .doc-page-animation-enter {
-// 	opacity: 0;
-// 	transform: translateY(12px);
-// }
-// .doc-page-animation-enter.doc-page-animation-enter-active {
-// 	opacity: 1;
-// 	transition: all .25s linear .4s;
-// 	transform: translateY(0);
-// }
-// .doc-page-animation-leave {
-// 	opacity: 1;
-// 	transform: translateY(0);
-// }
-// .doc-page-animation-leave.doc-page-animation-leave-active {
-// 	position: absolute;
-// 	width: 100%;
-// 	opacity: 0;
-// 	transition: all .25s linear;
-// 	transform: translateY(120px);
-// }
+.section {
+	&.p-t-0 {
+		padding-top: 0;
+	}
+	&.p-b-0 {
+		padding-bottom: 0;
+	}
+}

@@ -22,6 +22,8 @@
 			}
 		}
 		.doc-preview {
+			background: $white;
+
 			@include respond-to('md') {
 				padding-right: $box-spacing-x;
 			}

@@ -175,12 +175,12 @@ $box-spacing-y: 1.5rem !default;
 
 // Breadcrumb //
 
-$breadcrumb-active-color: $base-color !default;
+$breadcrumb-active-color: $secondary-color !default;
 $breadcrumb-background: transparent !default;
-$breadcrumb-divider: '/' !default;
+$breadcrumb-divider: '|' !default;
 $breadcrumb-divider-color: $base-color !default;
 $breadcrumb-item-spacing: $padding !default;
-$breadcrumb-link-color: $primary-color !default;
+$breadcrumb-link-color: $base-color !default;
 $breadcrumb-spacing: $padding !default;
 
 // Button //
