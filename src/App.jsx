@@ -6,6 +6,8 @@ import AlertDocumentation from './components/Documentation/Components/AlertDocum
 import BoxDocumentation from './components/Documentation/Components/BoxDocumentation';
 import ButtonDocumentation from './components/Documentation/Components/ButtonDocumentation';
 import DividerDocumentation from './components/Documentation/Components/DividerDocumentation';
+import FooterDocumentation from './components/Documentation/Components/FooterDocumentation';
+import MediaDocumentation from './components/Documentation/Components/MediaDocumentation';
 import Documentation from './components/Documentation/Documentation';
 import PageNotFound from './components/Error/PageNotFound';
 import Home from './components/Home/Home';
@@ -52,6 +54,16 @@ class App extends Component {
                       exact
                       path="/documentation/components/divider"
                       component={DividerDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/components/footer"
+                      component={FooterDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/components/media"
+                      component={MediaDocumentation}
                     />
                     <Route path="*" component={PageNotFound} />
                   </Switch>

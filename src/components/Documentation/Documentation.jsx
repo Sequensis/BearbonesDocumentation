@@ -129,8 +129,7 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/footer"
                 title="Footer"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="This component is widely used on websites."
               />
             </div>
             <div className="column one-third">
@@ -145,8 +144,8 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/media"
                 title="Media"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="This component is used to create repetitive elements
+                where content is positioned with some imagery."
               />
             </div>
             <div className="column one-third">

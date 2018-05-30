@@ -189,3 +189,20 @@ body {
 	padding-top: 0;
 }
 // remove icon//
+
+.media .media {
+	margin-top: $media-spacing-y - $media-divider-width;
+}
+
+.media {
+	&.center {
+		align-items: center;
+	}
+	&.bottom {
+		align-items: flex-end;
+	}
+}
+
+.bb-footer {
+	width: 100%;
+}
