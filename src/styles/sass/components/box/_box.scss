@@ -10,6 +10,13 @@
 		@include respond-to('md') {
 			flex-direction: row;
 		}
+		&.full-x {
+			flex-direction: column;
+			.doc-preview,
+			.doc-snippet {
+				width: 100%;
+			}
+		}
 		.doc-preview,
 		.doc-snippet {
 			padding: 1.5rem 1rem;
@@ -46,6 +53,9 @@
 
 			@include respond-to('md') {
 				border-top: none;
+			}
+			pre {
+				max-height: 25rem;
 			}
 		}
 		.doc-copy {

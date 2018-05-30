@@ -78,12 +78,12 @@ export default class DividerDocumentation extends Component {
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<div className="bb-divider separator">
+                    {`<div className="bb-divider divider-separator">
   <i className="fas fa-paw" />
 </div>`}
                   </Highlight>
                   <Highlight className="html">
-                    {`<div className="bb-divider separator">Divider</div>`}
+                    {`<div className="bb-divider divider-separator">Divider</div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>

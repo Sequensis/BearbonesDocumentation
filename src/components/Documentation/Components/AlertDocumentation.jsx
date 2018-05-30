@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
 
-export default class BoxDocumentation extends Component {
+export default class AlertDocumentation extends Component {
   render() {
     return (
       <div className="section p-t-0">
