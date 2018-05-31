@@ -8,7 +8,7 @@ export default class ButtonDocumentation extends Component {
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
-              <h2 className="title">Button</h2>
+              <h1 className="title">Button</h1>
               <p className="subtitle">
                 An essential component for any design, providing the user a
                 simple way to trigger an event.

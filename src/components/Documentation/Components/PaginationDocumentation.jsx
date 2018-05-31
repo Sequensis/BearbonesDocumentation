@@ -8,7 +8,7 @@ export default class PaginationDocumentation extends Component {
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
-              <h2 className="title">Pagination</h2>
+              <h1 className="title">Pagination</h1>
               <p className="subtitle">
                 This component is used to display grouped content existing
                 between multiple pages.
@@ -625,7 +625,7 @@ export default class PaginationDocumentation extends Component {
                     <nav className="bb-pagination primary">
                       <a className="dot" href="#example" />
                       <a className="dot" href="#example" />
-                      <a className="dot active" href="#" />
+                      <a className="dot active" href="#example" />
                       <a className="dot" href="#example" />
                     </nav>
                   </div>
@@ -633,7 +633,7 @@ export default class PaginationDocumentation extends Component {
                     <nav className="bb-pagination primary outline">
                       <a className="dot" href="#example" />
                       <a className="dot" href="#example" />
-                      <a className="dot active" href="#" />
+                      <a className="dot active" href="#example" />
                       <a className="dot" href="#example" />
                     </nav>
                   </div>

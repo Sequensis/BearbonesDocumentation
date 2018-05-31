@@ -8,7 +8,7 @@ export default class AlertDocumentation extends Component {
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
-              <h2 className="title">Alert</h2>
+              <h1 className="title">Alert</h1>
               <p className="subtitle">
                 This component is used to provide feedback messages for users.
               </p>

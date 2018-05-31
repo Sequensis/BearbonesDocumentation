@@ -9,7 +9,7 @@ export default class BoxDocumentation extends Component {
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
-              <h2 className="title">Box</h2>
+              <h1 className="title">Box</h1>
               <p className="subtitle">
                 This component is used as a basic container that full widths to
                 any element it is within.

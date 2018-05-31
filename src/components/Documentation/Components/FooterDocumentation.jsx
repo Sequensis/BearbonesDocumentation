@@ -8,7 +8,7 @@ export default class FooterDocumentation extends Component {
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
-              <h2 className="title">Footer</h2>
+              <h1 className="title">Footer</h1>
               <p className="subtitle">
                 This component is widely used as a source of navigation on the
                 bottom of webpages.
@@ -167,58 +167,22 @@ export default class FooterDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<footer class="bb-footer primary">
-  <div class="container">
-    <div class="text-center">
-      <p class="m-b-3">
-        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
-      </p>
-    </div>
-    <p class="text-center">
-      Code licensed <a class="link" href="#example">MIT</a>.
-    </p>
-  </div>
+  ...
 </footer>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<footer class="bb-footer secondary">
-  <div class="container">
-    <div class="text-center">
-      <p class="m-b-3">
-        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
-      </p>
-    </div>
-    <p class="text-center">
-      Code licensed <a class="link" href="#example">MIT</a>.
-    </p>
-  </div>
+  ...
 </footer>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<footer class="bb-footer positive">
-  <div class="container">
-    <div class="text-center">
-      <p class="m-b-3">
-        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
-      </p>
-    </div>
-    <p class="text-center">
-      Code licensed <a class="link" href="#example">MIT</a>.
-    </p>
-  </div>
+  ...
 </footer>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<footer class="bb-footer negative">
-  <div class="container">
-    <div class="text-center">
-      <p class="m-b-3">
-        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
-      </p>
-    </div>
-    <p class="text-center">
-      Code licensed <a class="link" href="#example">MIT</a>.
-    </p>
-  </div>
+  ...
 </footer>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>

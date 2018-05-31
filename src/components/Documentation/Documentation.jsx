@@ -23,24 +23,21 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="example"
                 title="Getting Started"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="example"
                 title="Importing"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="example"
                 title="Variables"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
           </div>
@@ -52,8 +49,7 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/accordion"
                 title="Accordion"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
@@ -67,8 +63,7 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/animation"
                 title="Animation"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
@@ -83,8 +78,7 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/breadcrumb"
                 title="Breadcrumb"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
@@ -98,8 +92,7 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/card"
                 title="Card"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
@@ -113,31 +106,30 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/dropdown"
                 title="Dropdown"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="components/field"
                 title="Field"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="components/footer"
                 title="Footer"
-                subTitle="This component is widely used on websites."
+                subTitle="This component is widely used as a source of navigation on the
+                bottom of webpages."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="components/hero"
                 title="Hero"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="A component which extends to the whole horizontal viewport,
+                used to showcase key messaging."
               />
             </div>
             <div className="column one-third">
@@ -152,40 +144,37 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/navbar"
                 title="Navbar"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="components/pagination"
                 title="Pagination"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="This component is used to display grouped content existing
+                between multiple pages."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="components/stat"
                 title="Stat"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="components/tab"
                 title="Tab"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="components/table"
                 title="Table"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="This component is used to spruce up the HTML table we all know
+                and love."
               />
             </div>
           </div>
@@ -197,24 +186,21 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="example"
                 title="Basic"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="example"
                 title="Grid"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="example"
                 title="Family grid"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
           </div>
@@ -226,24 +212,21 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="example"
                 title="Display"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="example"
                 title="Spacing"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third">
               <DocumentationBox
                 link="example"
                 title="Typography"
-                subTitle="Lorem ipsum dolor sit amet, adipiscing elit. Phasellus
-                nec iaculis mauris."
+                subTitle="Coming soon..."
               />
             </div>
           </div>
