@@ -10,7 +10,8 @@ export default class FooterDocumentation extends Component {
             <div className="column column-16">
               <h2 className="title">Footer</h2>
               <p className="subtitle">
-                This component is widely used on websites.
+                This component is widely used as a source of navigation on the
+                bottom of webpages.
               </p>
               <Highlight className="js">
                 {'import "../bearbones/sass/components/footer/all"'}
@@ -45,14 +46,14 @@ export default class FooterDocumentation extends Component {
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<footer className="bb-footer">
-  <div className="container">
-    <div className="text-center">
-      <p className="m-b-3">
+                    {`<footer class="bb-footer">
+  <div class="container">
+    <div class="text-center">
+      <p class="m-b-3">
         <strong>Bearbones</strong> by <a href="#example">Daniel Humenko</a>.
       </p>
     </div>
-    <p className="text-center">
+    <p class="text-center">
       Code licensed <a href="#example">MIT</a>.
     </p>
   </div>
@@ -151,71 +152,71 @@ export default class FooterDocumentation extends Component {
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<footer className="bb-footer invert">
-  <div className="container">
-    <div className="text-center">
-      <p className="m-b-3">
-        <strong>Bearbones</strong> by <a className="link" href="#example">Daniel Humenko</a>.
+                    {`<footer class="bb-footer invert">
+  <div class="container">
+    <div class="text-center">
+      <p class="m-b-3">
+        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
       </p>
     </div>
-    <p className="text-center">
-      Code licensed <a className="link" href="#example">MIT</a>.
+    <p class="text-center">
+      Code licensed <a class="link" href="#example">MIT</a>.
     </p>
   </div>
 </footer>`}
                   </Highlight>
                   <Highlight className="html">
-                    {`<footer className="bb-footer primary">
-  <div className="container">
-    <div className="text-center">
-      <p className="m-b-3">
-        <strong>Bearbones</strong> by <a className="link" href="#example">Daniel Humenko</a>.
+                    {`<footer class="bb-footer primary">
+  <div class="container">
+    <div class="text-center">
+      <p class="m-b-3">
+        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
       </p>
     </div>
-    <p className="text-center">
-      Code licensed <a className="link" href="#example">MIT</a>.
+    <p class="text-center">
+      Code licensed <a class="link" href="#example">MIT</a>.
     </p>
   </div>
 </footer>`}
                   </Highlight>
                   <Highlight className="html">
-                    {`<footer className="bb-footer secondary">
-  <div className="container">
-    <div className="text-center">
-      <p className="m-b-3">
-        <strong>Bearbones</strong> by <a className="link" href="#example">Daniel Humenko</a>.
+                    {`<footer class="bb-footer secondary">
+  <div class="container">
+    <div class="text-center">
+      <p class="m-b-3">
+        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
       </p>
     </div>
-    <p className="text-center">
-      Code licensed <a className="link" href="#example">MIT</a>.
+    <p class="text-center">
+      Code licensed <a class="link" href="#example">MIT</a>.
     </p>
   </div>
 </footer>`}
                   </Highlight>
                   <Highlight className="html">
-                    {`<footer className="bb-footer positive">
-  <div className="container">
-    <div className="text-center">
-      <p className="m-b-3">
-        <strong>Bearbones</strong> by <a className="link" href="#example">Daniel Humenko</a>.
+                    {`<footer class="bb-footer positive">
+  <div class="container">
+    <div class="text-center">
+      <p class="m-b-3">
+        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
       </p>
     </div>
-    <p className="text-center">
-      Code licensed <a className="link" href="#example">MIT</a>.
+    <p class="text-center">
+      Code licensed <a class="link" href="#example">MIT</a>.
     </p>
   </div>
 </footer>`}
                   </Highlight>
                   <Highlight className="html">
-                    {`<footer className="bb-footer negative">
-  <div className="container">
-    <div className="text-center">
-      <p className="m-b-3">
-        <strong>Bearbones</strong> by <a className="link" href="#example">Daniel Humenko</a>.
+                    {`<footer class="bb-footer negative">
+  <div class="container">
+    <div class="text-center">
+      <p class="m-b-3">
+        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
       </p>
     </div>
-    <p className="text-center">
-      Code licensed <a className="link" href="#example">MIT</a>.
+    <p class="text-center">
+      Code licensed <a class="link" href="#example">MIT</a>.
     </p>
   </div>
 </footer>`}
