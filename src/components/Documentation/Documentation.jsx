@@ -159,7 +159,8 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/stat"
                 title="Stat"
-                subTitle="Coming soon..."
+                subTitle="This component is used to empathise both the label and value for
+                an attribute."
               />
             </div>
             <div className="column one-third">

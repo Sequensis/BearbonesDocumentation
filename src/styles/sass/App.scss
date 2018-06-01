@@ -212,3 +212,16 @@ body {
 		border-radius: 0 !important;
 	}
 }
+
+.bb-pagination .dot {
+	color: transparent;
+	font-size: 0;
+	line-height: 0;
+}
+
+.bb-stats {
+	display: inline-flex;
+	&.vertical {
+		align-items: center;
+	}
+}
