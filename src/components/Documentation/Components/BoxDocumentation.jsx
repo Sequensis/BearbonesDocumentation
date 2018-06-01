@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
-import { Link } from 'react-router-dom';
 
 export default class BoxDocumentation extends Component {
   render() {
@@ -30,17 +29,26 @@ export default class BoxDocumentation extends Component {
                         <h4 className="title">
                           The giant panda is actually a bear.
                         </h4>
-                        <p className="subtitle p-b-2">
+                        <p className="subtitle">
                           The giant panda also known as panda bear or simply
                           panda, is a bear native to south central China.
                         </p>
-                        <Link to="/panda">Find out more</Link>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="doc-snippet">
-                  <Highlight className="html">{''}</Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box">
+  <h4 className="title">
+    The giant panda is actually a bear.
+  </h4>
+  <p className="subtitle">
+    The giant panda also known as panda bear or simply
+    panda, is a bear native to south central China.
+  </p>
+</div>`}
+                  </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>
               </div>
@@ -78,7 +86,37 @@ export default class BoxDocumentation extends Component {
                   </div>
                 </div>
                 <div className="doc-snippet">
-                  <Highlight className="html">{''}</Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box invert">
+  <h4 className="title">
+    The giant panda is actually a bear.
+  </h4>
+  <p className="subtitle">
+    The giant panda also known as panda bear or simply
+    panda, is a bear native to south central China.
+  </p>
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box primary">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box secondary">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box positive">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box negative">
+  ...
+</div>`}
+                  </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>
               </div>
@@ -116,7 +154,37 @@ export default class BoxDocumentation extends Component {
                   </div>
                 </div>
                 <div className="doc-snippet">
-                  <Highlight className="html">{''}</Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box outline">
+  <h4 className="title">
+    The giant panda is actually a bear.
+  </h4>
+  <p className="subtitle">
+    The giant panda also known as panda bear or simply
+    panda, is a bear native to south central China.
+  </p>
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box outline primary">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box outline secondary">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box outline positive">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box outline negative">
+  ...
+</div>`}
+                  </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>
               </div>
