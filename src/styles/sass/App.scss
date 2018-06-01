@@ -206,3 +206,9 @@ body {
 .bb-footer {
 	width: 100%;
 }
+
+.bb-table.no-border-radius {
+	* {
+		border-radius: 0 !important;
+	}
+}

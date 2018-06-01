@@ -234,21 +234,21 @@ export default class TableDocumentaion extends Component {
                   <Highlight className="html">
                     {`<table class="bb-table primary">
   <tbody>
-  <tr>
-    <td class="positive">Brown Bear</td>
-    <td>Polar Bear</td>
-    <td class="negative">Black Bear</td>
-  </tr>
-  <tr>
-    <td>Andean Bear</td>
-    <td class="secondary">Panda Bear</td>
-    <td>Sloth bear</td>
-  </tr>
-  <tr class="primary">
-    <td>Sun Bear</td>
-    <td>Atlas Bear</td>
-    <td>Grizzly Bear</td>
-  </tr>
+    <tr>
+      <td class="positive">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="negative">Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td class="secondary">Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr class="primary">
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
   </tbody>
 </table>`}
                   </Highlight>
@@ -574,6 +574,111 @@ export default class TableDocumentaion extends Component {
           </div>
           <div className="bb-grid md">
             <div className="column column-16">
+              <h4 className="title">State</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table hover">
+                      <tbody>
+                        <tr>
+                          <td className="positive">Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td className="negative">Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td className="secondary">Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr className="primary">
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table hover">
+  <tbody>
+    <tr>
+      <td class="positive">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="negative">Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td class="secondary">Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr class="primary">
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table">
+                      <tbody>
+                        <tr>
+                          <td className="positive selected">Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td className="negative selected">Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td className="secondary selected">Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr className="primary selected">
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table">
+  <tbody>
+    <tr>
+      <td class="positive selected">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="negative selected">Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td class="secondary selected">Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr class="primary selected">
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
               <h4 className="title">Helper</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
@@ -669,6 +774,38 @@ export default class TableDocumentaion extends Component {
       <td>Sun Bear</td>
       <td>Atlas Bear</td>
       <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table">
+                      <tbody>
+                        <tr>
+                          <td className="error">Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td className="success">Black Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table">
+  <tbody>
+    <tr>
+      <td class="error">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="success">Black Bear</td>
     </tr>
   </tbody>
 </table>`}
