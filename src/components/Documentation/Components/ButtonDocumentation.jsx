@@ -584,7 +584,7 @@ Icon</button>`}
           </div>
           <div className="bb-grid md">
             <div className="column column-16">
-              <h4 className="title">Horizontal</h4>
+              <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">

@@ -139,34 +139,22 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination primary">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination secondary">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination positive">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination negative">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -261,34 +249,22 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination sm">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination lg">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination xl">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -383,34 +359,22 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination outline primary">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination outline secondary">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination outline positive">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination outline negative">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -504,34 +468,22 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination connected primary">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination connected secondary">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination connected positive">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination connected negative">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -597,18 +549,12 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination primary outline no-border">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination primary connected no-border">
-  <a class="item active" href="#">1</a>
-  <a class="item disabled">...</a>
-  <a class="item" href="#">3</a>
-  <a class="item" href="#">4</a>
+  ...
 </nav>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
@@ -622,37 +568,254 @@ export default class PaginationDocumentation extends Component {
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
-                    <nav className="bb-pagination primary">
-                      <a className="dot" href="#example" />
-                      <a className="dot" href="#example" />
-                      <a className="dot active" href="#example" />
-                      <a className="dot" href="#example" />
+                    <nav className="bb-pagination">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
                     </nav>
                   </div>
                   <div className="content">
-                    <nav className="bb-pagination primary outline">
-                      <a className="dot" href="#example" />
-                      <a className="dot" href="#example" />
-                      <a className="dot active" href="#example" />
-                      <a className="dot" href="#example" />
+                    <nav className="bb-pagination invert">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination primary">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination secondary">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination positive">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination negative">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
                     </nav>
                   </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<nav class="bb-pagination primary">
-  <a class="dot" href="#"></a>
-  <a class="dot"></a>
-  <a class="dot active" href="#"></a>
-  <a class="dot" href="#"></a>
+                    {`<nav class="bb-pagination">
+  <a class="dot" href="#">1</a>
+  <a class="dot">2</a>
+  <a class="dot active" href="#">3</a>
+  <a class="dot" href="#">4</a>
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
-                    {`<nav class="bb-pagination primary outline">
-  <a class="dot" href="#"></a>
-  <a class="dot"></a>
-  <a class="dot active" href="#"></a>
-  <a class="dot" href="#"></a>
+                    {`<nav class="bb-pagination invert">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination primary">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination secondary">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination positive">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination negative">
+  ...
+</nav>`}
+                  </Highlight>
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Dots</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <nav className="bb-pagination outline">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination outline primary">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination outline secondary">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination outline positive">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                  <div className="content">
+                    <nav className="bb-pagination outline negative">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination outline">
+  <a class="dot" href="#">1</a>
+  <a class="dot">2</a>
+  <a class="dot active" href="#">3</a>
+  <a class="dot" href="#">4</a>
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination outline primary">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination outline secondary">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination outline positive">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination outline negative">
+  ...
 </nav>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
