@@ -58,20 +58,6 @@ export default class PaginationDocumentation extends Component {
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
-                    <nav className="bb-pagination invert">
-                      <a className="item active" href="#example">
-                        1
-                      </a>
-                      <a className="item disabled">...</a>
-                      <a className="item" href="#example">
-                        3
-                      </a>
-                      <a className="item" href="#example">
-                        4
-                      </a>
-                    </nav>
-                  </div>
-                  <div className="content">
                     <nav className="bb-pagination primary">
                       <a className="item active" href="#example">
                         1
@@ -127,19 +113,28 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
+                  <div className="content">
+                    <nav className="bb-pagination invert">
+                      <a className="item active" href="#example">
+                        1
+                      </a>
+                      <a className="item disabled">...</a>
+                      <a className="item" href="#example">
+                        3
+                      </a>
+                      <a className="item" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<nav class="bb-pagination invert">
+                    {`<nav class="bb-pagination primary">
   <a class="item active" href="#">1</a>
   <a class="item disabled">...</a>
   <a class="item" href="#">3</a>
   <a class="item" href="#">4</a>
-</nav>`}
-                  </Highlight>
-                  <Highlight className="html">
-                    {`<nav class="bb-pagination primary">
-  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
@@ -154,6 +149,11 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination negative">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination invert">
   ...
 </nav>`}
                   </Highlight>
@@ -347,6 +347,20 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
+                  <div className="content">
+                    <nav className="bb-pagination outline invert">
+                      <a className="item active" href="#example">
+                        1
+                      </a>
+                      <a className="item disabled">...</a>
+                      <a className="item" href="#example">
+                        3
+                      </a>
+                      <a className="item" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
@@ -374,6 +388,11 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination outline negative">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination outline invert">
   ...
 </nav>`}
                   </Highlight>
@@ -456,6 +475,20 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
+                  <div className="content">
+                    <nav className="bb-pagination connected invert">
+                      <a className="item active" href="#example">
+                        1
+                      </a>
+                      <a className="item disabled">...</a>
+                      <a className="item" href="#example">
+                        3
+                      </a>
+                      <a className="item" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
@@ -483,6 +516,11 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination connected negative">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination connected invert">
   ...
 </nav>`}
                   </Highlight>
@@ -584,22 +622,6 @@ export default class PaginationDocumentation extends Component {
                     </nav>
                   </div>
                   <div className="content">
-                    <nav className="bb-pagination invert">
-                      <a className="dot" href="#example">
-                        1
-                      </a>
-                      <a className="dot" href="#example">
-                        2
-                      </a>
-                      <a className="dot active" href="#example">
-                        3
-                      </a>
-                      <a className="dot" href="#example">
-                        4
-                      </a>
-                    </nav>
-                  </div>
-                  <div className="content">
                     <nav className="bb-pagination primary">
                       <a className="dot" href="#example">
                         1
@@ -663,6 +685,22 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
+                  <div className="content">
+                    <nav className="bb-pagination invert">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
@@ -671,11 +709,6 @@ export default class PaginationDocumentation extends Component {
   <a class="dot">2</a>
   <a class="dot active" href="#">3</a>
   <a class="dot" href="#">4</a>
-</nav>`}
-                  </Highlight>
-                  <Highlight className="html">
-                    {`<nav class="bb-pagination invert">
-  ...
 </nav>`}
                   </Highlight>
                   <Highlight className="html">
@@ -695,6 +728,11 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination negative">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination invert">
   ...
 </nav>`}
                   </Highlight>
@@ -788,6 +826,22 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
+                  <div className="content">
+                    <nav className="bb-pagination outline invert">
+                      <a className="dot" href="#example">
+                        1
+                      </a>
+                      <a className="dot" href="#example">
+                        2
+                      </a>
+                      <a className="dot active" href="#example">
+                        3
+                      </a>
+                      <a className="dot" href="#example">
+                        4
+                      </a>
+                    </nav>
+                  </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
@@ -815,6 +869,11 @@ export default class PaginationDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<nav class="bb-pagination outline negative">
+  ...
+</nav>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<nav class="bb-pagination outline invert">
   ...
 </nav>`}
                   </Highlight>

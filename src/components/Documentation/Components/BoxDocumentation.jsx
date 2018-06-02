@@ -60,11 +60,6 @@ export default class BoxDocumentation extends Component {
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="column column-10">
-                    <div className="bb-box invert">
-                      <h4>The giant panda is actually a bear.</h4>
-                    </div>
-                  </div>
-                  <div className="column column-10">
                     <div className="bb-box primary">
                       <h4>The giant panda is actually a bear.</h4>
                     </div>
@@ -84,10 +79,15 @@ export default class BoxDocumentation extends Component {
                       <h4>The giant panda is actually a bear.</h4>
                     </div>
                   </div>
+                  <div className="column column-10">
+                    <div className="bb-box invert">
+                      <h4>The giant panda is actually a bear.</h4>
+                    </div>
+                  </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<div className="bb-box invert">
+                    {`<div className="bb-box primary">
   <h4 className="title">
     The giant panda is actually a bear.
   </h4>
@@ -95,11 +95,6 @@ export default class BoxDocumentation extends Component {
     The giant panda also known as panda bear or simply
     panda, is a bear native to south central China.
   </p>
-</div>`}
-                  </Highlight>
-                  <Highlight className="html">
-                    {`<div className="bb-box primary">
-  ...
 </div>`}
                   </Highlight>
                   <Highlight className="html">
@@ -114,6 +109,11 @@ export default class BoxDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<div className="bb-box negative">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box invert">
   ...
 </div>`}
                   </Highlight>
@@ -152,6 +152,11 @@ export default class BoxDocumentation extends Component {
                       <h4>The giant panda is actually a bear.</h4>
                     </div>
                   </div>
+                  <div className="column column-10">
+                    <div className="bb-box outline invert">
+                      <h4>The giant panda is actually a bear.</h4>
+                    </div>
+                  </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
@@ -182,6 +187,11 @@ export default class BoxDocumentation extends Component {
                   </Highlight>
                   <Highlight className="html">
                     {`<div className="bb-box outline negative">
+  ...
+</div>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<div className="bb-box outline invert">
   ...
 </div>`}
                   </Highlight>

@@ -19,21 +19,21 @@ export default class Documentation extends Component {
             <div className="column column-16">
               <h3 className="text-primary">Initialisation</h3>
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Getting Started"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Importing"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Variables"
@@ -45,28 +45,28 @@ export default class Documentation extends Component {
             <div className="column column-16">
               <h3 className="text-primary">Components</h3>
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/accordion"
                 title="Accordion"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/alert"
                 title="Alert"
                 subTitle="This component is used to provide feedback messages for users."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/animation"
                 title="Animation"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/box"
                 title="Box"
@@ -74,49 +74,49 @@ export default class Documentation extends Component {
                 any element it is within."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/breadcrumb"
                 title="Breadcrumb"
                 subTitle="A simple component used to display basic navigational structure."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/button"
                 title="Button"
                 subTitle="An essential component for any design, providing the user a simple way to trigger an event."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/card"
                 title="Card"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/divider"
                 title="Divider"
                 subTitle="This component is used to visually separate content for the user."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/dropdown"
                 title="Dropdown"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/field"
                 title="Field"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/footer"
                 title="Footer"
@@ -124,7 +124,7 @@ export default class Documentation extends Component {
                 bottom of webpages."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/hero"
                 title="Hero"
@@ -132,7 +132,7 @@ export default class Documentation extends Component {
                 used to showcase key messaging."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/media"
                 title="Media"
@@ -140,14 +140,14 @@ export default class Documentation extends Component {
                 where content is positioned with some imagery."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/navbar"
                 title="Navbar"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/pagination"
                 title="Pagination"
@@ -155,7 +155,7 @@ export default class Documentation extends Component {
                 between multiple pages."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/stat"
                 title="Stat"
@@ -163,14 +163,14 @@ export default class Documentation extends Component {
                 an attribute."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/tab"
                 title="Tab"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="components/table"
                 title="Table"
@@ -183,21 +183,21 @@ export default class Documentation extends Component {
             <div className="column column-16">
               <h3 className="text-primary">Layout</h3>
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Basic"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Grid"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Family grid"
@@ -209,21 +209,21 @@ export default class Documentation extends Component {
             <div className="column column-16">
               <h3 className="text-primary">Utilities</h3>
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Display"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Spacing"
                 subTitle="Coming soon..."
               />
             </div>
-            <div className="column one-third">
+            <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Typography"

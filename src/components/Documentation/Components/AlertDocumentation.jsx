@@ -48,14 +48,6 @@ export default class AlertDocumentation extends Component {
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
-                    <div className="bb-alert invert">
-                      <p>
-                        <strong>Alert,</strong> only 8 species of bears are
-                        extant.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="content">
                     <div className="bb-alert primary">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
@@ -87,13 +79,17 @@ export default class AlertDocumentation extends Component {
                       </p>
                     </div>
                   </div>
+                  <div className="content">
+                    <div className="bb-alert invert">
+                      <p>
+                        <strong>Alert,</strong> only 8 species of bears are
+                        extant.
+                      </p>
+                    </div>
+                  </div>
                 </div>
+
                 <div className="doc-snippet">
-                  <Highlight className="html">
-                    {`<div class="bb-alert invert">
-  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
-</div>`}
-                  </Highlight>
                   <Highlight className="html">
                     {`<div class="bb-alert primary">
   <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
@@ -114,6 +110,11 @@ export default class AlertDocumentation extends Component {
   <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
 </div>`}
                   </Highlight>
+                  <Highlight className="html">
+                    {`<div class="bb-alert invert">
+  <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
+</div>`}
+                  </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>
               </div>
@@ -125,20 +126,20 @@ export default class AlertDocumentation extends Component {
               <div className="bb-box example">
                 <div className="doc-preview">
                   <div className="content">
-                    <div className="bb-alert primary">
+                    <div className="bb-alert">
+                      <div className="close" />
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
                         extant.
                       </p>
-                      <div className="close primary" />
                     </div>
                   </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<div class="bb-alert primary">
+                    {`<div class="bb-alert">
+  <div class="close"></div>                      
   <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
-  <div class="close primary"></div>  
 </div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>

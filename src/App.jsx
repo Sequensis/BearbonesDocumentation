@@ -25,7 +25,7 @@ import PageNotFound from './components/Error/PageNotFound';
 import Home from './components/Home/Home';
 import DocumentationNavigation from './components/Shared/DocumentationNavigation';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
@@ -150,5 +150,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;

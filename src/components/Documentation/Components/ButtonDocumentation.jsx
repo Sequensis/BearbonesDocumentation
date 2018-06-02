@@ -551,22 +551,19 @@ Icon</button>`}
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {'<button class="bb-btn close"></button>'}
+                    {'<button class="bb-btn close xs"></button>'}
+                  </Highlight>
+                  <Highlight className="html">
+                    {'<button class="bb-btn close sm"></button>'}
                   </Highlight>
                   <Highlight className="html">
                     {'<button class="bb-btn close"></button>'}
                   </Highlight>
                   <Highlight className="html">
-                    {'<button class="bb-btn close"></button>'}
+                    {'<button class="bb-btn close lg"></button>'}
                   </Highlight>
                   <Highlight className="html">
-                    {'<button class="bb-btn close"></button>'}
-                  </Highlight>
-                  <Highlight className="html">
-                    {'<button class="bb-btn close"></button>'}
-                  </Highlight>
-                  <Highlight className="html">
-                    {'<button class="bb-btn close"></button>'}
+                    {'<button class="bb-btn close xl"></button>'}
                   </Highlight>
 
                   <button className="bb-btn primary doc-copy sm">Copy</button>
