@@ -38,8 +38,8 @@ a.bb-btn.icon span {
 
 @include respond-to('md') {
 	.section {
-		padding-right: constant(safe-area-inset-right);
-		padding-left: constant(safe-area-inset-left);
+		padding-right: env(safe-area-inset-right);
+		padding-left: env(safe-area-inset-left);
 	}
 }
 
@@ -51,7 +51,7 @@ a.bb-btn.icon span {
 		bottom: 0;
 		left: 0;
 		z-index: 100;
-		padding-bottom: constant(safe-area-inset-bottom);
+		padding-bottom: env(safe-area-inset-bottom);
 	}
 	&.shadow {
 		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .12);
@@ -99,6 +99,129 @@ a.bb-btn.icon span {
 
 .subtitle {
 	&.sm {
-		font-size: $font-size-lg;
+		font-size: $font-size-md;
+	}
+	&.lg {
+		font-size: $font-size-xl;
+	}
+}
+
+.bb-alert .close {
+	top: $alert-spacing;
+	right: $alert-spacing / 2;
+}
+
+body {
+	background: $lighter-grey;
+}
+
+// .bb-box {
+// 	.close {
+// 		position: relative;
+// 		top: auto;
+// 		right: auto;
+// 	}
+// 	 > .close {
+// 		position: absolute;
+// 		top: 1.5rem;
+// 		right: 1rem;
+// 	}
+// }
+
+.doc-page-animation-enter {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	opacity: 0;
+	transform: translateY(.5rem);
+}
+.doc-page-animation-enter.doc-page-animation-enter-active {
+	opacity: 1;
+	transition: all .25s ease-in-out;
+	transition-delay: .25s;
+	transform: translateY(0);
+
+	will-change: opacity, transform;
+}
+.doc-page-animation-exit {
+	position: absolute;
+	width: 100%;
+	opacity: 1;
+	transform: translateY(0);
+}
+.doc-page-animation-exit.doc-page-animation-exit-active {
+	opacity: 0;
+	transition: all .25s ease-in-out;
+	transform: translateY(.5rem);
+
+	will-change: opacity, transform;
+}
+
+.bb-breadcrumb {
+	text-transform: capitalize;
+	ul {
+		padding: 0;
+	}
+}
+.section {
+	&.p-t-0 {
+		padding-top: 0;
+	}
+	&.p-b-0 {
+		padding-bottom: 0;
+	}
+}
+
+.bb-box {
+	.text-doc {
+		color: $base-color !important;
+	}
+}
+
+.bb-btn.icon {
+	justify-content: space-between;
+	span {
+		margin: 0;
+	}
+}
+
+.bb-divider + p:not(:first-child) {
+	padding-top: 0;
+}
+// remove icon//
+
+.media .media {
+	margin-top: $media-spacing-y - $media-divider-width;
+}
+
+.media {
+	&.center {
+		align-items: center;
+	}
+	&.bottom {
+		align-items: flex-end;
+	}
+}
+
+.bb-footer {
+	width: 100%;
+}
+
+.bb-table.no-border-radius {
+	* {
+		border-radius: 0 !important;
+	}
+}
+
+.bb-pagination .dot {
+	color: transparent;
+	font-size: 0;
+	line-height: 0;
+}
+
+.bb-stats {
+	display: inline-flex;
+	&.vertical {
+		align-items: center;
 	}
 }

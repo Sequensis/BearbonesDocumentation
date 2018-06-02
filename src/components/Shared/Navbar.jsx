@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class Navbar extends Component {
+export default class Navbar extends Component {
   render() {
     return (
       <div className="container">
         <nav
-          className="bb-navbar fixed bottom shadow doc-navbar display"
+          className="bb-navbar fixed bottom shadow doc-navbar display hidden-lg-up"
           id="bottom-navbar"
         >
           <div className="bb-btns full-x no-border-radius">
@@ -40,5 +40,3 @@ class Navbar extends Component {
     );
   }
 }
-
-export default Navbar;

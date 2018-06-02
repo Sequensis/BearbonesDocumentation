@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-class IllustrationRubble extends Component {
+export default class IllustrationPainter extends Component {
   render() {
     return <div />;
   }
 }
-
-export default IllustrationRubble;

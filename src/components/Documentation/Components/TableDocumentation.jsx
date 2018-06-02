@@ -1,0 +1,821 @@
+import React, { Component } from 'react';
+import Highlight from 'react-highlight';
+
+export default class TableDocumentaion extends Component {
+  render() {
+    return (
+      <div className="section p-t-0">
+        <div className="container">
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h1 className="title">Table</h1>
+              <p className="subtitle">
+                This component is used to spruce up the HTML table we all know
+                and <s>love</s> hate.
+              </p>
+              <Highlight className="js">
+                {'import "../bearbones/sass/components/table/all"'}
+              </Highlight>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Basic</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table">
+  <tbody>
+    <tr>
+      <td>Brown Bear</td>
+      <td>Polar Bear</td>
+      <td>Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td>Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr>
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Colours</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table primary">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table secondary">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table positive">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table negative">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table primary">
+  <tbody>
+    <tr>
+      <td>Brown Bear</td>
+      <td>Polar Bear</td>
+      <td>Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td>Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr>
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table secondary">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table positive">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table negative">
+  ...
+</table>`}
+                  </Highlight>
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table">
+                      <tbody>
+                        <tr>
+                          <td className="positive">Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td className="negative">Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td className="secondary">Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr className="primary">
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table primary">
+  <tbody>
+    <tr>
+      <td class="positive">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="negative">Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td class="secondary">Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr class="primary">
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Styles</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table striped">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table primary striped">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table secondary striped">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table positive striped">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table negative striped">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table striped">
+  <tbody>
+    <tr>
+      <td>Brown Bear</td>
+      <td>Polar Bear</td>
+      <td>Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td>Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr>
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table primary striped">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table secondary striped">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table positive striped">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table negative striped">
+  ...
+</table>`}
+                  </Highlight>
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table naked">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table primary naked">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table secondary naked">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table positive naked">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="content">
+                    <table className="bb-table negative naked">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table naked">
+  <tbody>
+    <tr>
+      <td>Brown Bear</td>
+      <td>Polar Bear</td>
+      <td>Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td>Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr>
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table primary naked">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table secondary naked">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table positive naked">
+  ...
+</table>`}
+                  </Highlight>
+                  <Highlight className="html">
+                    {`<table class="bb-table negative naked">
+  ...
+</table>`}
+                  </Highlight>
+                  <button className="bb-btn primary doc-copy sm">Copy</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">State</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table hover">
+                      <tbody>
+                        <tr>
+                          <td className="positive">Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td className="negative">Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td className="secondary">Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr className="primary">
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table hover">
+  <tbody>
+    <tr>
+      <td class="positive">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="negative">Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td class="secondary">Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr class="primary">
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table">
+                      <tbody>
+                        <tr>
+                          <td className="positive selected">Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td className="negative selected">Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td className="secondary selected">Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr className="primary selected">
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table">
+  <tbody>
+    <tr>
+      <td class="positive selected">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="negative selected">Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td class="secondary selected">Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr class="primary selected">
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <h4 className="title">Helper</h4>
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table full-x">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table full-x">
+  <tbody>
+    <tr>
+      <td>Brown Bear</td>
+      <td>Polar Bear</td>
+      <td>Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td>Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr>
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table no-border-radius">
+                      <tbody>
+                        <tr>
+                          <td>Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td>Black Bear</td>
+                        </tr>
+                        <tr>
+                          <td>Andean Bear</td>
+                          <td>Panda Bear</td>
+                          <td>Sloth bear</td>
+                        </tr>
+                        <tr>
+                          <td>Sun Bear</td>
+                          <td>Atlas Bear</td>
+                          <td>Grizzly Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table no-border-radius">
+  <tbody>
+    <tr>
+      <td>Brown Bear</td>
+      <td>Polar Bear</td>
+      <td>Black Bear</td>
+    </tr>
+    <tr>
+      <td>Andean Bear</td>
+      <td>Panda Bear</td>
+      <td>Sloth bear</td>
+    </tr>
+    <tr>
+      <td>Sun Bear</td>
+      <td>Atlas Bear</td>
+      <td>Grizzly Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bb-grid md">
+            <div className="column column-16">
+              <div className="bb-box example">
+                <div className="doc-preview">
+                  <div className="content">
+                    <table className="bb-table">
+                      <tbody>
+                        <tr>
+                          <td className="error">Brown Bear</td>
+                          <td>Polar Bear</td>
+                          <td className="success">Black Bear</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div className="doc-snippet">
+                  <Highlight className="html">
+                    {`<table class="bb-table">
+  <tbody>
+    <tr>
+      <td class="error">Brown Bear</td>
+      <td>Polar Bear</td>
+      <td class="success">Black Bear</td>
+    </tr>
+  </tbody>
+</table>`}
+                  </Highlight>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
