@@ -1,15 +1,16 @@
 {
   "name": "Bearbones CSS Framework",
-  "short_name": "Bearbones",    
+  "short_name": "Bearbones",
   "version": "0.1.0",
-  "default_locale": "en-gb",    
+  "default_locale": "en-gb",
   "description": "",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0A344D",
   "theme_color": "#0A344D",
-  "icons": [{
+  "icons": [
+    {
       "src": "./favicons/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
@@ -18,7 +19,8 @@
       "src": "./favicons/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
-  }],
+    }
+  ],
   "author": {
     "name": "Daniel Humenko",
     "website": "https://www.humenko.co.uk",
