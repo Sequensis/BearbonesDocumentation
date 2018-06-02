@@ -64,8 +64,8 @@
 			bottom: -$border-width;
 			border: none;
 			border-radius: 0;
-			border-top-left-radius: $btn-border-radius;
-			border-bottom-right-radius: $btn-border-radius;
+			border-top-left-radius: $border-radius;
+			border-bottom-right-radius: $border-radius;
 		}
 	}
 }
@@ -74,7 +74,7 @@
 	position: relative;
 	display: block;
 	padding: $box-spacing-y $box-spacing-x;
-	height: 10.3125rem;
+	min-height: 10.3125rem;
 	background: $white;
 	box-shadow: 0 1.25rem 1.5rem -1.25rem rgba(10, 10, 10, .1);
 	transition-duration: 250ms;

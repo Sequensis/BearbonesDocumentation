@@ -115,19 +115,6 @@ body {
 	background: $lighter-grey;
 }
 
-// .bb-box {
-// 	.close {
-// 		position: relative;
-// 		top: auto;
-// 		right: auto;
-// 	}
-// 	 > .close {
-// 		position: absolute;
-// 		top: 1.5rem;
-// 		right: 1rem;
-// 	}
-// }
-
 .doc-page-animation-enter {
 	position: absolute;
 	z-index: -1;
@@ -211,12 +198,6 @@ body {
 	* {
 		border-radius: 0 !important;
 	}
-}
-
-.bb-pagination .dot {
-	color: transparent;
-	font-size: 0;
-	line-height: 0;
 }
 
 .bb-stats {
