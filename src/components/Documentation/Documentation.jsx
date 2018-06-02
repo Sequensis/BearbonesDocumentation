@@ -78,7 +78,7 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/breadcrumb"
                 title="Breadcrumb"
-                subTitle="Coming soon..."
+                subTitle="A simple component used to display basic navigational structure."
               />
             </div>
             <div className="column one-third">
