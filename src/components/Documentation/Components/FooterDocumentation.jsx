@@ -25,16 +25,14 @@ export default class FooterDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <footer className="bb-footer">
-                      <div className="container">
-                        <div className="text-center">
-                          <p className="text-doc m-b-3">
-                            <strong>Bearbones</strong> by{' '}
-                            <a className="link" href="#example">
-                              Daniel Humenko
-                            </a>.
-                          </p>
-                        </div>
-                        <p className="text-doc text-center">
+                      <div className="container text-center">
+                        <p className="text-doc">
+                          <strong>Bearbones</strong> by{' '}
+                          <a className="link" href="#example">
+                            Daniel Humenko
+                          </a>.
+                        </p>
+                        <p className="text-doc">
                           Code licensed{' '}
                           <a className="link" href="#example">
                             MIT
@@ -47,13 +45,11 @@ export default class FooterDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<footer class="bb-footer">
-  <div class="container">
-    <div class="text-center">
-      <p class="m-b-3">
+  <div class="container text-center">
+    <p>
         <strong>Bearbones</strong> by <a href="#example">Daniel Humenko</a>.
-      </p>
-    </div>
-    <p class="text-center">
+    </p>
+    <p>
       Code licensed <a href="#example">MIT</a>.
     </p>
   </div>
@@ -71,16 +67,14 @@ export default class FooterDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <footer className="bb-footer invert">
-                      <div className="container">
-                        <div className="text-center">
-                          <p className="m-b-3">
-                            <strong>Bearbones</strong> by{' '}
-                            <a className="link" href="#example">
-                              Daniel Humenko
-                            </a>.
-                          </p>
-                        </div>
-                        <p className="text-center">
+                      <div className="container text-center">
+                        <p>
+                          <strong>Bearbones</strong> by{' '}
+                          <a className="link" href="#example">
+                            Daniel Humenko
+                          </a>.
+                        </p>
+                        <p>
                           Code licensed{' '}
                           <a className="link" href="#example">
                             MIT
@@ -91,14 +85,12 @@ export default class FooterDocumentation extends Component {
                   </div>
                   <div className="content">
                     <footer className="bb-footer primary">
-                      <div className="container">
-                        <div className="text-center">
-                          <p className="m-b-3">
-                            <strong>Bearbones</strong> by{' '}
-                            <a href="#example">Daniel Humenko</a>.
-                          </p>
-                        </div>
-                        <p className="text-center">
+                      <div className="container text-center">
+                        <p>
+                          <strong>Bearbones</strong> by{' '}
+                          <a href="#example">Daniel Humenko</a>.
+                        </p>
+                        <p>
                           Code licensed <a href="#example">MIT</a>.
                         </p>
                       </div>
@@ -106,14 +98,12 @@ export default class FooterDocumentation extends Component {
                   </div>
                   <div className="content">
                     <footer className="bb-footer secondary">
-                      <div className="container">
-                        <div className="text-center">
-                          <p className="m-b-3">
-                            <strong>Bearbones</strong> by{' '}
-                            <a href="#example">Daniel Humenko</a>.
-                          </p>
-                        </div>
-                        <p className="text-center">
+                      <div className="container text-center">
+                        <p>
+                          <strong>Bearbones</strong> by{' '}
+                          <a href="#example">Daniel Humenko</a>.
+                        </p>
+                        <p>
                           Code licensed <a href="#example">MIT</a>.
                         </p>
                       </div>
@@ -121,14 +111,12 @@ export default class FooterDocumentation extends Component {
                   </div>
                   <div className="content">
                     <footer className="bb-footer positive">
-                      <div className="container">
-                        <div className="text-center">
-                          <p className="m-b-3">
-                            <strong>Bearbones</strong> by{' '}
-                            <a href="#example">Daniel Humenko</a>.
-                          </p>
-                        </div>
-                        <p className="text-center">
+                      <div className="container text-center">
+                        <p>
+                          <strong>Bearbones</strong> by{' '}
+                          <a href="#example">Daniel Humenko</a>.
+                        </p>
+                        <p>
                           Code licensed <a href="#example">MIT</a>.
                         </p>
                       </div>
@@ -136,14 +124,12 @@ export default class FooterDocumentation extends Component {
                   </div>
                   <div className="content">
                     <footer className="bb-footer negative">
-                      <div className="container">
-                        <div className="text-center">
-                          <p className="m-b-3">
-                            <strong>Bearbones</strong> by{' '}
-                            <a href="#example">Daniel Humenko</a>.
-                          </p>
-                        </div>
-                        <p className="text-center">
+                      <div className="container text-center">
+                        <p>
+                          <strong>Bearbones</strong> by{' '}
+                          <a href="#example">Daniel Humenko</a>.
+                        </p>
+                        <p>
                           Code licensed <a href="#example">MIT</a>.
                         </p>
                       </div>
@@ -153,14 +139,12 @@ export default class FooterDocumentation extends Component {
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<footer class="bb-footer invert">
-  <div class="container">
-    <div class="text-center">
-      <p class="m-b-3">
-        <strong>Bearbones</strong> by <a class="link" href="#example">Daniel Humenko</a>.
-      </p>
-    </div>
-    <p class="text-center">
-      Code licensed <a class="link" href="#example">MIT</a>.
+  <div class="container text-center">
+    <p>
+      <strong>Bearbones</strong> by <a href="#example">Daniel Humenko</a>.
+    </p>
+    <p>
+      Code licensed <a href="#example">MIT</a>.
     </p>
   </div>
 </footer>`}

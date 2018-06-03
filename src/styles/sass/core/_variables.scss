@@ -320,11 +320,12 @@ $dropdown-offset: -.125rem !default;
 $dropdown-transition: color 0s, opacity $transition-effect $transition-duration,
   transform $transition-effect $transition-duration !default;
 
-//******************Footer //
+// Footer //
 
-$footer-color: $base-color !default;
-$footer-background: $lighter-grey !default;
-$footer-divider-color: $light-grey !default;
+$footer-variant-background: $lighter-grey !default;
+//
+$footer-box-shadow: 0 0 1.5rem 0 rgba(10, 10, 10, .1);
+//
 $footer-spacing: 3rem $layout-spacing-x 6rem $layout-spacing-x !default;
 
 //******************Field //

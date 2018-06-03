@@ -42,7 +42,11 @@ export default class App extends Component {
                   <Switch location={location}>
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/about" component={About} />
-                    <Route exact path="/" component={Documentation} />
+                    <Route
+                      exact
+                      path="/documentation"
+                      component={Documentation}
+                    />
                     <Route
                       exact
                       path="/documentation/components/accordion"
