@@ -62,25 +62,25 @@ export default class PaginationDocumentation extends Component {
                   <div className="content">
                     <div className="bb-stat primary">
                       <p className="value text-primary">20,000</p>
-                      <p className="label text-primary">Polar Bears</p>
+                      <p className="label text-doc">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat secondary">
                       <p className="value text-secondary">20,000</p>
-                      <p className="label text-secondary">Polar Bears</p>
+                      <p className="label text-doc">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat positive">
                       <p className="value text-positive">20,000</p>
-                      <p className="label text-positive">Polar Bears</p>
+                      <p className="label text-doc">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat negative">
                       <p className="value text-negative">20,000</p>
-                      <p className="label text-negative">Polar Bears</p>
+                      <p className="label text-doc">Polar Bears</p>
                     </div>
                   </div>
                 </div>
