@@ -127,19 +127,19 @@ export default class AlertDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <div className="bb-alert">
-                      <div className="close" />
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
                         extant.
                       </p>
+                      <div className="close" />
                     </div>
                   </div>
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
                     {`<div class="bb-alert">
-  <div class="close"></div>                      
   <p><strong>Alert,</strong> only 8 species of bears are extant.</p>
+  <div class="close"></div>                        
 </div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>

@@ -323,6 +323,7 @@ $dropdown-transition: color 0s, opacity $transition-effect $transition-duration,
 // Footer //
 
 $footer-variant-background: $lighter-grey !default;
+$footer-variant-color: $base-color !default;
 //
 $footer-box-shadow: 0 0 1.5rem 0 rgba(10, 10, 10, .1);
 //
@@ -365,10 +366,14 @@ $field-addon-color-focus: $lighter-grey !default;
 $field-addon-background-focus: $field-color-focus !default;
 $field-addon-border-color-focus: $field-border-color-focus !default;
 
-//******************Media object //
+// Media object //
 
-$media-divider-width: $border-width !default;
-$media-divider-color: $light-grey !default;
+$media-variant-border: $light-grey !default;
+//
+$media-border-radius: $border-width !default;
+$media-border-style: $border-style !default;
+$media-border-width: $border-width !default;
+//
 $media-spacing-x: $padding !default;
 $media-spacing-y: $padding / 1.5 !default;
 
@@ -410,7 +415,7 @@ $navbar-dropdown-transition: color 0s,
   transform $transition-effect $transition-duration !default;
 
 // Pagination //
-//
+
 $pagination-variant-background: $base-variant-background !default;
 $pagination-variant-color: $base-variant-color !default;
 $pagination-variant-border: $base-variant-border !default;
@@ -435,7 +440,7 @@ $pagination-dot-border-radius: $border-radius-circle !default;
 $pagination-dot-size: .3rem !default;
 $pagination-dot-spacing: .1rem !default;
 
-//******************Stat //
+// Stat //
 
 $stat-value-font-family: $heading-font-family !default;
 $stat-value-font-weight: 400 !default;
@@ -448,7 +453,9 @@ $stat-label-text-transform: uppercase !default;
 $stat-text-font-weight: 600 !default;
 $stat-text-font-size: $stat-value-font-size / 2 !default;
 $stat-line-height: 1em !default;
+//
 $stat-spacing: $padding !default;
+//
 $stat-value-font-size-xs: $stat-value-font-size - 1.5rem !default;
 $stat-value-font-size-sm: $stat-value-font-size - .75rem !default;
 $stat-value-font-size-lg: $stat-value-font-size + .75rem !default;
@@ -462,17 +469,22 @@ $tab-transition: all $transition-effect $transition-duration !default;
 $tab-item-spacing-x: $padding !default;
 $tab-item-spacing-y: $padding / 2 !default;
 
-//******************Table //
+// Table //
 
-$table-background: $lighter-grey !default;
-$table-background-hover: lighten($primary-color, 30%) !default;
-$table-border-width: $border-width / 2 !default;
+$table-variant-background: $lighter-grey !default;
+$table-variant-color: $base-variant-background !default;
+$table-variant-border: darken($table-variant-background, 12%) !default;
+$table-variant-hover: darken($table-variant-background, 12%) !default;
+$table-variant-active: darken($table-variant-background, 12%) !default;
+//
 $table-border-radius: $border-radius * 2 !default;
-$table-border-color: darken($table-background, 5) !default;
-$table-color: $base-color !default;
-$table-transition: all $transition-effect $transition-duration !default;
+$table-border-style: $border-style !default;
+$table-border-width: $border-width / 2 !default;
+//
 $table-spacing-x: .75rem !default;
 $table-spacing-y: .75rem !default;
+//
+$table-transition: all $transition-effect $transition-duration !default;
 
 //// UTILITIES ///
 

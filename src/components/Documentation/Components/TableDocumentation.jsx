@@ -634,13 +634,13 @@ export default class TableDocumentaion extends Component {
                       <tbody>
                         <tr>
                           <td className="positive selected">Brown Bear</td>
-                          <td>Polar Bear</td>
+                          <td className="selected">Polar Bear</td>
                           <td className="negative selected">Black Bear</td>
                         </tr>
                         <tr>
-                          <td>Andean Bear</td>
+                          <td className="selected">Andean Bear</td>
                           <td className="secondary selected">Panda Bear</td>
-                          <td>Sloth bear</td>
+                          <td className="selected">Sloth bear</td>
                         </tr>
                         <tr className="primary selected">
                           <td>Sun Bear</td>
