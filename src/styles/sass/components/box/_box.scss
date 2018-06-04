@@ -36,7 +36,7 @@
 			@include respond-to-down('md') {
 				overflow-x: scroll;
 			}
-			.content {
+			.doc-content {
 				@include respond-to-down('md') {
 					display: inline-flex;
 					width: 100%;

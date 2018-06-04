@@ -148,18 +148,31 @@ $transition-duration: .25s !default;
 
 //// COMPONENTS ////
 
-//******************Accordion //
+// Accordion //
 
-$accordion-heading-background: transparent !default;
-$accordion-heading-border-color: $lighter-grey !default;
-$accordion-heading-border-style: $border-style !default;
-$accordion-heading-border-width: $border-width !default;
+//
+$accordion-variant-background: transparent !default;
+$accordion-variant-border: $lighter-grey !default;
+$accordion-variant-toggle: $light-grey !default;
+$accordion-variant-active: $light-grey !default;
+//
+$accordion-border-style: $border-style !default;
+$accordion-border-width: $border-width !default;
+$accordion-border-radius: $border-radius !default;
+//
 $accordion-heading-font-family: $font-family !default;
 $accordion-heading-font-size: $font-size-xl !default;
 $accordion-heading-font-weight: $font-weight-bold !default;
-$accordion-heading-spacing: $padding !default;
-$accordion-content-spacing: $padding !default;
-$accordion-toggle-spacing: 0 $padding / 2 0 0 !default;
+$accordion-subheading-font-family: $font-family !default;
+$accordion-subheading-font-size: $font-size-lg !default;
+$accordion-subheading-font-weight: $font-weight-bold !default;
+//
+$accordion-heading-spacing-x: 0 !default;
+$accordion-heading-spacing-y: 1rem !default;
+$accordion-content-spacing-x: 1rem !default;
+$accordion-content-spacing-y: 1rem !default;
+$accordion-toggle-spacing: 0 .5rem 0 0 !default;
+//
 $accordion-toggle-transition: all $transition-effect $transition-duration !default;
 
 // Alert //
