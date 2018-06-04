@@ -10,7 +10,8 @@ export default class AccordionDocumentation extends Component {
             <div className="column column-16">
               <h1 className="title">Accordion</h1>
               <p className="subtitle">
-                This component is used to provide feedback messages for users.
+                A collapsible component which allows the user to show and hide
+                content to meet their needs.
               </p>
               <Highlight className="js">
                 {'import "../bearbones/sass/components/accordion/all"'}

@@ -49,7 +49,8 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="components/accordion"
                 title="Accordion"
-                subTitle="Coming soon..."
+                subTitle="A collapsible component which allows the user to show and 
+                hide content to meet their needs."
               />
             </div>
             <div className="column one-third-lg column-8-md">
