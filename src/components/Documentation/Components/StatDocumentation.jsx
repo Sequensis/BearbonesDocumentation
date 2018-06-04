@@ -23,13 +23,13 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat">
                       <p className="value">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat">
                       <p className="label">Polar Bears</p>
                       <p className="value">20,000</p>
@@ -59,25 +59,25 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Colours</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat primary">
                       <p className="value text-primary">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat secondary">
                       <p className="value text-secondary">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat positive">
                       <p className="value text-positive">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat negative">
                       <p className="value text-negative">20,000</p>
                       <p className="label">Polar Bears</p>
@@ -116,31 +116,31 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Sizes</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat xs">
                       <p className="value">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat sm">
                       <p className="value">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat">
                       <p className="value">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat lg">
                       <p className="value">20,000</p>
                       <p className="label">Polar Bears</p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat xl">
                       <p className="value">20,000</p>
                       <p className="label">Polar Bears</p>
@@ -184,7 +184,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Styles</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat">
                       <p className="value text">
                         Twenty<br />Thousand
@@ -211,7 +211,7 @@ export default class PaginationDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stat horizontal">
                       <p className="value">20,000</p>
                       <p className="label">Polar Bears</p>
@@ -243,7 +243,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stats">
                       <div className="bb-stat">
                         <p className="value">20,000</p>
@@ -291,7 +291,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Vertical</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-stats vertical">
                       <div className="bb-stat">
                         <p className="value">20,000</p>

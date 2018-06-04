@@ -23,7 +23,7 @@ export default class TableDocumentaion extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table">
                       <tbody>
                         <tr>
@@ -77,7 +77,7 @@ export default class TableDocumentaion extends Component {
               <h4 className="title">Colours</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table primary">
                       <tbody>
                         <tr>
@@ -98,7 +98,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table secondary">
                       <tbody>
                         <tr>
@@ -119,7 +119,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table positive">
                       <tbody>
                         <tr>
@@ -140,7 +140,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table negative">
                       <tbody>
                         <tr>
@@ -208,7 +208,7 @@ export default class TableDocumentaion extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table">
                       <tbody>
                         <tr>
@@ -262,7 +262,7 @@ export default class TableDocumentaion extends Component {
               <h4 className="title">Styles</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table striped">
                       <tbody>
                         <tr>
@@ -283,7 +283,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table primary striped">
                       <tbody>
                         <tr>
@@ -304,7 +304,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table secondary striped">
                       <tbody>
                         <tr>
@@ -325,7 +325,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table positive striped">
                       <tbody>
                         <tr>
@@ -346,7 +346,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table negative striped">
                       <tbody>
                         <tr>
@@ -419,7 +419,7 @@ export default class TableDocumentaion extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table naked">
                       <tbody>
                         <tr>
@@ -440,7 +440,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table primary naked">
                       <tbody>
                         <tr>
@@ -461,7 +461,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table secondary naked">
                       <tbody>
                         <tr>
@@ -482,7 +482,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table positive naked">
                       <tbody>
                         <tr>
@@ -503,7 +503,7 @@ export default class TableDocumentaion extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table negative naked">
                       <tbody>
                         <tr>
@@ -577,7 +577,7 @@ export default class TableDocumentaion extends Component {
               <h4 className="title">State</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table hover">
                       <tbody>
                         <tr>
@@ -629,7 +629,7 @@ export default class TableDocumentaion extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table">
                       <tbody>
                         <tr>
@@ -682,7 +682,7 @@ export default class TableDocumentaion extends Component {
               <h4 className="title">Helper</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table full-x">
                       <tbody>
                         <tr>
@@ -734,7 +734,7 @@ export default class TableDocumentaion extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table no-border-radius">
                       <tbody>
                         <tr>
@@ -786,7 +786,7 @@ export default class TableDocumentaion extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <table className="bb-table">
                       <tbody>
                         <tr>

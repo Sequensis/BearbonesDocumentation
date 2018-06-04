@@ -23,7 +23,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination">
                       <a className="item active" href="#example">
                         1
@@ -57,7 +57,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Colours</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination primary">
                       <a className="item active" href="#example">
                         1
@@ -71,7 +71,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination secondary">
                       <a className="item active" href="#example">
                         1
@@ -85,7 +85,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination positive">
                       <a className="item active" href="#example">
                         1
@@ -99,7 +99,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination negative">
                       <a className="item active" href="#example">
                         1
@@ -113,7 +113,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination invert">
                       <a className="item active" href="#example">
                         1
@@ -167,7 +167,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Sizes</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination xs">
                       <a className="item active" href="#example">
                         1
@@ -181,7 +181,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination sm">
                       <a className="item active" href="#example">
                         1
@@ -195,7 +195,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination">
                       <a className="item active" href="#example">
                         1
@@ -209,7 +209,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination lg">
                       <a className="item active" href="#example">
                         1
@@ -223,7 +223,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination xl">
                       <a className="item active" href="#example">
                         1
@@ -277,7 +277,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Styles</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline">
                       <a className="item active" href="#example">
                         1
@@ -291,7 +291,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline primary">
                       <a className="item active" href="#example">
                         1
@@ -305,7 +305,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline secondary">
                       <a className="item active" href="#example">
                         1
@@ -319,7 +319,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline positive">
                       <a className="item active" href="#example">
                         1
@@ -333,7 +333,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline negative">
                       <a className="item active" href="#example">
                         1
@@ -347,7 +347,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline invert">
                       <a className="item active" href="#example">
                         1
@@ -405,7 +405,7 @@ export default class PaginationDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination connected">
                       <a className="item active" href="#example">
                         1
@@ -419,7 +419,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination connected primary">
                       <a className="item active" href="#example">
                         1
@@ -433,7 +433,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination connected secondary">
                       <a className="item active" href="#example">
                         1
@@ -447,7 +447,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination connected positive">
                       <a className="item active" href="#example">
                         1
@@ -461,7 +461,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination connected negative">
                       <a className="item active" href="#example">
                         1
@@ -475,7 +475,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination connected invert">
                       <a className="item active" href="#example">
                         1
@@ -533,7 +533,7 @@ export default class PaginationDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination primary no-border">
                       <a className="item active" href="#example">
                         1
@@ -547,7 +547,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination primary outline no-border">
                       <a className="item active" href="#example">
                         1
@@ -561,7 +561,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination primary connected no-border">
                       <a className="item active" href="#example">
                         1
@@ -605,7 +605,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Dots</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination">
                       <a className="dot" href="#example">
                         1
@@ -621,7 +621,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination primary">
                       <a className="dot" href="#example">
                         1
@@ -637,7 +637,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination secondary">
                       <a className="dot" href="#example">
                         1
@@ -653,7 +653,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination positive">
                       <a className="dot" href="#example">
                         1
@@ -669,7 +669,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination negative">
                       <a className="dot" href="#example">
                         1
@@ -685,7 +685,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination invert">
                       <a className="dot" href="#example">
                         1
@@ -746,7 +746,7 @@ export default class PaginationDocumentation extends Component {
               <h4 className="title">Dots</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline">
                       <a className="dot" href="#example">
                         1
@@ -762,7 +762,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline primary">
                       <a className="dot" href="#example">
                         1
@@ -778,7 +778,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline secondary">
                       <a className="dot" href="#example">
                         1
@@ -794,7 +794,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline positive">
                       <a className="dot" href="#example">
                         1
@@ -810,7 +810,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline negative">
                       <a className="dot" href="#example">
                         1
@@ -826,7 +826,7 @@ export default class PaginationDocumentation extends Component {
                       </a>
                     </nav>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <nav className="bb-pagination outline invert">
                       <a className="dot" href="#example">
                         1

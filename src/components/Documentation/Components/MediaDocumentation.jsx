@@ -24,7 +24,7 @@ export default class MediaDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example full-x">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <article className="media">
                       <div className="media-left">
                         <figure>
@@ -90,7 +90,7 @@ export default class MediaDocumentation extends Component {
               <h4 className="title">Nested</h4>
               <div className="bb-box example full-x">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <article className="media">
                       <div className="media-left">
                         <figure>
@@ -257,7 +257,7 @@ export default class MediaDocumentation extends Component {
               <h4 className="title">Alignment</h4>
               <div className="bb-box example full-x">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <article className="media center">
                       <div className="media-left">
                         <figure>
@@ -322,7 +322,7 @@ export default class MediaDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example full-x">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <article className="media bottom">
                       <div className="media-left">
                         <figure>
@@ -387,7 +387,7 @@ export default class MediaDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example full-x">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <article className="media">
                       <div className="media-container">
                         <div className="media-content">

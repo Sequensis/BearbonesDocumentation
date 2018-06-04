@@ -22,7 +22,7 @@ export default class AlertDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-alert">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
@@ -47,7 +47,7 @@ export default class AlertDocumentation extends Component {
               <h4 className="title">Colours</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-alert primary">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
@@ -55,7 +55,7 @@ export default class AlertDocumentation extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-alert secondary">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
@@ -63,7 +63,7 @@ export default class AlertDocumentation extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-alert positive">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
@@ -71,7 +71,7 @@ export default class AlertDocumentation extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-alert negative">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
@@ -79,7 +79,7 @@ export default class AlertDocumentation extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-alert invert">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are
@@ -125,7 +125,7 @@ export default class AlertDocumentation extends Component {
               <h4 className="title">Close</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-alert">
                       <p>
                         <strong>Alert,</strong> only 8 species of bears are

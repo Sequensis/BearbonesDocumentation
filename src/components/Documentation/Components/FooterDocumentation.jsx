@@ -23,7 +23,7 @@ export default class FooterDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example full-x">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <footer className="bb-footer">
                       <div className="container text-center">
                         <p>
@@ -65,7 +65,7 @@ export default class FooterDocumentation extends Component {
               <h4 className="title">Colour</h4>
               <div className="bb-box example full-x">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <footer className="bb-footer invert">
                       <div className="container text-center">
                         <p>
@@ -83,7 +83,7 @@ export default class FooterDocumentation extends Component {
                       </div>
                     </footer>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <footer className="bb-footer primary">
                       <div className="container text-center">
                         <p>
@@ -96,7 +96,7 @@ export default class FooterDocumentation extends Component {
                       </div>
                     </footer>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <footer className="bb-footer secondary">
                       <div className="container text-center">
                         <p>
@@ -109,7 +109,7 @@ export default class FooterDocumentation extends Component {
                       </div>
                     </footer>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <footer className="bb-footer positive">
                       <div className="container text-center">
                         <p>
@@ -122,7 +122,7 @@ export default class FooterDocumentation extends Component {
                       </div>
                     </footer>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <footer className="bb-footer negative">
                       <div className="container text-center">
                         <p>

@@ -23,7 +23,7 @@ export default class ButtonDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn">Button</button>
                     <a className="bb-btn m-x-2">Anchor</a>
                     <input className="bb-btn" type="submit" value="Input" />
@@ -49,7 +49,7 @@ export default class ButtonDocumentation extends Component {
               <h4 className="title">Colours</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn primary">Primary</button>
                     <button className="bb-btn secondary m-x-2">
                       Secondary
@@ -85,19 +85,19 @@ export default class ButtonDocumentation extends Component {
               <h4 className="title">Sizes</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn xs">Extra small</button>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn sm">Small</button>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn">Medium</button>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn lg">Large</button>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn xl">Extra large</button>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ export default class ButtonDocumentation extends Component {
               <h4 className="title">Styles</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn outline">Default</button>
                     <button className="bb-btn outline primary m-x-2">
                       Primary
@@ -180,7 +180,7 @@ export default class ButtonDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn inverted">Default</button>
                     <button className="bb-btn inverted primary m-x-2">
                       Primary
@@ -234,7 +234,7 @@ export default class ButtonDocumentation extends Component {
               <h4 className="title">State</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn loading">Loading</button>
                     <button className="bb-btn loading primary m-x-2">
                       Loading
@@ -250,7 +250,7 @@ export default class ButtonDocumentation extends Component {
                       Loading
                     </button>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn loading outline">Loading</button>
                     <button className="bb-btn loading outline primary m-x-2">
                       Loading
@@ -280,7 +280,7 @@ export default class ButtonDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button disabled className="bb-btn disabled">
                       Disabled
                     </button>
@@ -300,7 +300,7 @@ export default class ButtonDocumentation extends Component {
                       Disabled
                     </button>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <button disabled className="bb-btn disabled outline">
                       Disabled
                     </button>
@@ -350,7 +350,7 @@ export default class ButtonDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn active">Active</button>
                     <button className="bb-btn active primary m-x-2">
                       Active
@@ -364,7 +364,7 @@ export default class ButtonDocumentation extends Component {
                       Active
                     </button>
                   </div>
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn active outline">Active</button>
                     <button className="bb-btn active outline primary m-x-2">
                       Active
@@ -397,7 +397,7 @@ export default class ButtonDocumentation extends Component {
               <h4 className="title">Icons</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn icon">
                       <span>
                         <i className="fas fa-paw" />
@@ -449,7 +449,7 @@ Icon</button>`}
               <h4 className="title">Helper</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn full-x primary">
                       Full width
                     </button>
@@ -467,7 +467,7 @@ Icon</button>`}
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <button className="bb-btn no-border-radius primary">
                       No border radius
                     </button>
@@ -584,7 +584,7 @@ Icon</button>`}
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-btns">
                       <button className="bb-btn primary">Button</button>
                       <button className="bb-btn secondary">Button</button>
@@ -612,7 +612,7 @@ Icon</button>`}
               <h4 className="title">Vertical</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-btns vertical">
                       <button className="bb-btn primary">Button</button>
                       <button className="bb-btn secondary">Button</button>
@@ -640,7 +640,7 @@ Icon</button>`}
               <h4 className="title">Helper</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-btns full-x">
                       <button className="bb-btn primary">Full width</button>
                       <button className="bb-btn secondary">Full width</button>
@@ -665,7 +665,7 @@ Icon</button>`}
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="bb-btns no-border-radius">
                       <button className="bb-btn primary">Button</button>
                       <button className="bb-btn secondary">Button</button>

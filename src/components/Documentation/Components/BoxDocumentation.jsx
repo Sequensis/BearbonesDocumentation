@@ -23,7 +23,7 @@ export default class BoxDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <div className="content">
+                  <div className="doc-content">
                     <div className="column column-10">
                       <div className="bb-box">
                         <h4 className="title">
