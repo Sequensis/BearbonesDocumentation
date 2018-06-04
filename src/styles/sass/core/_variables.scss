@@ -208,15 +208,17 @@ $box-border-width: $border-width !default;
 $box-spacing-x: 1rem !default;
 $box-spacing-y: 1.5rem !default;
 
-//******************Breadcrumb //
+// Breadcrumb //
 
-$breadcrumb-active-color: $secondary-color !default;
-$breadcrumb-background: transparent !default;
+//
+$breadcrumb-variant-background: transparent !default;
+$breadcrumb-variant-color: $base-color !default;
+$breadcrumb-variant-active: $secondary-color !default;
 $breadcrumb-divider: '|' !default;
-$breadcrumb-divider-color: $base-color !default;
-$breadcrumb-item-spacing: $padding !default;
-$breadcrumb-link-color: $base-color !default;
-$breadcrumb-spacing: $padding !default;
+$breadcrumb-variant-divider: $base-color !default;
+//
+$breadcrumb-item-spacing: 1rem !default;
+$breadcrumb-spacing: 1rem !default;
 
 // Button //
 
