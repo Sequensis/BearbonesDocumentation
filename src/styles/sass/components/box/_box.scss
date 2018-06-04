@@ -3,10 +3,9 @@
 		display: flex;
 		flex-direction: column;
 		padding: 0;
-		border-color: $light-grey;
 		background: transparent;
-		color: $base-color;
 
+		@include box-variant(inherit, $box-variant-color, $light-grey);
 		@include respond-to('md') {
 			flex-direction: row;
 		}

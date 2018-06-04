@@ -25,14 +25,14 @@ export default class PaginationDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <div className="bb-stat">
-                      <p className="value text-doc">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="value">20,000</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat">
-                      <p className="label text-doc">Polar Bears</p>
-                      <p className="value text-doc">20,000</p>
+                      <p className="label">Polar Bears</p>
+                      <p className="value">20,000</p>
                     </div>
                   </div>
                 </div>
@@ -62,25 +62,25 @@ export default class PaginationDocumentation extends Component {
                   <div className="content">
                     <div className="bb-stat primary">
                       <p className="value text-primary">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat secondary">
                       <p className="value text-secondary">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat positive">
                       <p className="value text-positive">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat negative">
                       <p className="value text-negative">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                 </div>
@@ -118,32 +118,32 @@ export default class PaginationDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <div className="bb-stat xs">
-                      <p className="value text-doc">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="value">20,000</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat sm">
-                      <p className="value text-doc">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="value">20,000</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat">
-                      <p className="value text-doc">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="value">20,000</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat lg">
-                      <p className="value text-doc">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="value">20,000</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                   <div className="content">
                     <div className="bb-stat xl">
-                      <p className="value text-doc">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="value">20,000</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                 </div>
@@ -186,10 +186,10 @@ export default class PaginationDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <div className="bb-stat">
-                      <p className="value text text-doc">
+                      <p className="value text">
                         Twenty<br />Thousand
                       </p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                 </div>
@@ -213,8 +213,8 @@ export default class PaginationDocumentation extends Component {
                 <div className="doc-preview">
                   <div className="content">
                     <div className="bb-stat horizontal">
-                      <p className="value text-doc">20,000</p>
-                      <p className="label text-doc">Polar Bears</p>
+                      <p className="value">20,000</p>
+                      <p className="label">Polar Bears</p>
                     </div>
                   </div>
                 </div>
@@ -246,18 +246,18 @@ export default class PaginationDocumentation extends Component {
                   <div className="content">
                     <div className="bb-stats">
                       <div className="bb-stat">
-                        <p className="value text-doc">20,000</p>
-                        <p className="label text-doc">Polar Bears</p>
+                        <p className="value">20,000</p>
+                        <p className="label">Polar Bears</p>
                       </div>
                       <div className="bb-stat">
-                        <p className="label text-doc">Polar Bears</p>
-                        <p className="value text-doc">20,000</p>
+                        <p className="label">Polar Bears</p>
+                        <p className="value">20,000</p>
                       </div>
                       <div className="bb-stat">
-                        <p className="value text text-doc">
+                        <p className="value text">
                           Twenty<br />Thousand
                         </p>
-                        <p className="label text-doc">Polar Bears</p>
+                        <p className="label">Polar Bears</p>
                       </div>
                     </div>
                   </div>
@@ -294,18 +294,18 @@ export default class PaginationDocumentation extends Component {
                   <div className="content">
                     <div className="bb-stats vertical">
                       <div className="bb-stat">
-                        <p className="value text-doc">20,000</p>
-                        <p className="label text-doc">Polar Bears</p>
+                        <p className="value">20,000</p>
+                        <p className="label">Polar Bears</p>
                       </div>
                       <div className="bb-stat">
-                        <p className="label text-doc">Polar Bears</p>
-                        <p className="value text-doc">20,000</p>
+                        <p className="label">Polar Bears</p>
+                        <p className="value">20,000</p>
                       </div>
                       <div className="bb-stat">
-                        <p className="value text text-doc">
+                        <p className="value text">
                           Twenty<br />Thousand
                         </p>
-                        <p className="label text-doc">Polar Bears</p>
+                        <p className="label">Polar Bears</p>
                       </div>
                     </div>
                   </div>

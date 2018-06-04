@@ -23,13 +23,13 @@ export default class DividerDocumentation extends Component {
               <h4 className="title">Basic</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <p className="text-doc">
+                  <p>
                     Panda bears have an extra “thumb” (which is actually an
                     extra-large wrist bone) just for holding onto bamboo stalks.
                     A panda bear can eat over 45 lbs of bamboo per day.
                   </p>
                   <hr className="bb-divider" />
-                  <p className="text-doc">
+                  <p>
                     One variation of the black bear is a white bear called the
                     Kermode, ghost, or spirit bear. These bears are very rare.
                     Native Americans believed these white bears had supernatural
@@ -54,26 +54,26 @@ export default class DividerDocumentation extends Component {
               <h4 className="title">Colours</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <p className="text-doc">
+                  <p>
                     Panda bears have an extra “thumb” (which is actually an
                     extra-large wrist bone) just for holding onto bamboo stalks.
                     A panda bear can eat over 45 lbs of bamboo per day.
                   </p>
                   <hr className="bb-divider primary" />
-                  <p className="text-doc">
+                  <p>
                     One variation of the black bear is a white bear called the
                     Kermode, ghost, or spirit bear. These bears are very rare.
                     Native Americans believed these white bears had supernatural
                     power.
                   </p>
                   <hr className="bb-divider secondary" />
-                  <p className="text-doc">
+                  <p>
                     Panda bears have an extra “thumb” (which is actually an
                     extra-large wrist bone) just for holding onto bamboo stalks.
                     A panda bear can eat over 45 lbs of bamboo per day.
                   </p>
                   <hr className="bb-divider positive" />
-                  <p className="text-doc">
+                  <p>
                     One variation of the black bear is a white bear called the
                     Kermode, ghost, or spirit bear. These bears are very rare.
                     Native Americans believed these white bears had supernatural
@@ -104,7 +104,7 @@ export default class DividerDocumentation extends Component {
               <h4 className="title">Helper</h4>
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <p className="text-doc">
+                  <p>
                     Panda bears have an extra “thumb” (which is actually an
                     extra-large wrist bone) just for holding onto bamboo stalks.
                     A panda bear can eat over 45 lbs of bamboo per day.
@@ -112,7 +112,7 @@ export default class DividerDocumentation extends Component {
                   <div className="bb-divider divider-content">
                     <i className="fas fa-paw" />
                   </div>
-                  <p className="text-doc">
+                  <p>
                     One variation of the black bear is a white bear called the
                     Kermode, ghost, or spirit bear. These bears are very rare.
                     Native Americans believed these white bears had supernatural
@@ -122,12 +122,12 @@ export default class DividerDocumentation extends Component {
                 </div>
                 <div className="doc-snippet">
                   <Highlight className="html">
-                    {`<div className="bb-divider divider-separator">
+                    {`<div className="bb-divider divider-content">
   <i className="fas fa-paw" />
 </div>`}
                   </Highlight>
                   <Highlight className="html">
-                    {`<div className="bb-divider divider-separator">Divider</div>`}
+                    {`<div className="bb-divider divider-content">Divider</div>`}
                   </Highlight>
                   <button className="bb-btn primary doc-copy sm">Copy</button>
                 </div>
@@ -138,13 +138,13 @@ export default class DividerDocumentation extends Component {
             <div className="column column-16">
               <div className="bb-box example">
                 <div className="doc-preview">
-                  <p className="text-doc">
+                  <p>
                     Panda bears have an extra “thumb” (which is actually an
                     extra-large wrist bone) just for holding onto bamboo stalks.
                     A panda bear can eat over 45 lbs of bamboo per day.
                   </p>
                   <hr className="bb-divider hidden" />
-                  <p className="text-doc">
+                  <p>
                     One variation of the black bear is a white bear called the
                     Kermode, ghost, or spirit bear. These bears are very rare.
                     Native Americans believed these white bears had supernatural

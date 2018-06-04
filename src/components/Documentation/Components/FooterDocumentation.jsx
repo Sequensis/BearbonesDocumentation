@@ -26,13 +26,13 @@ export default class FooterDocumentation extends Component {
                   <div className="content">
                     <footer className="bb-footer">
                       <div className="container text-center">
-                        <p className="text-doc">
+                        <p>
                           <strong>Bearbones</strong> by{' '}
                           <a className="link" href="#example">
                             Daniel Humenko
                           </a>.
                         </p>
-                        <p className="text-doc">
+                        <p>
                           Code licensed{' '}
                           <a className="link" href="#example">
                             MIT

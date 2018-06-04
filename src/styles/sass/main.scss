@@ -136,9 +136,6 @@ body {
 
 .bb-breadcrumb {
 	text-transform: capitalize;
-	ul {
-		padding: 0;
-	}
 }
 
 .section {
@@ -147,11 +144,5 @@ body {
 	}
 	&.p-b-0 {
 		padding-bottom: 0;
-	}
-}
-
-.bb-box {
-	.text-doc {
-		color: $base-color !important;
 	}
 }
