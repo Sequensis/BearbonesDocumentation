@@ -67,16 +67,17 @@ $negative-variant-active: darken($negative-variant-background, 12%) !default;
 
 $padding: 1rem !default;
 $margin: 1.5rem !default;
+$body-spacing-y: .5rem !default;
 
 ////****************** LAYOUT ////
 
+$layout-variant-background: $lighter-grey !default;
+$layout-variant-color: $base-color !default;
+//
 $container-max-width: 75rem !default;
-$layout-background: $lighter-grey !default;
-$layout-color: $base-color !default;
 $layout-spacing-x: 1.5rem !default;
 $layout-spacing-y: 2rem !default;
 $layout-spacing-lg: $layout-spacing-y * 4 !default;
-$body-spacing-y: .5rem !default;
 
 //// GRID ////
 
@@ -503,18 +504,52 @@ $table-transition: all $transition-effect $transition-duration !default;
 
 //// UTILITIES ///
 
-//******************Spacing //
+// Spacing //
 
-$spacer: $padding !default;
+$spacer: 1rem !default;
 $spacer-x: $spacer !default;
 $spacer-y: $spacer !default;
 $spacers: (
-  0: (x: 0, y: 0),
-  1: (x: ($spacer-x * .25), y: ($spacer-y * .25)),
-  2: (x: ($spacer-x * .5), y: ($spacer-y * .5)),
-  3: (x: $spacer-x, y: $spacer-y),
-  4: (x: ($spacer-x * 1.5), y: ($spacer-y * 1.5)),
-  5: (x: ($spacer-x * 3), y: ($spacer-y * 3))
+  0: (
+    x: 0,
+    y: 0
+  ),
+  1: (
+    x: (
+      $spacer-x * .25
+    ),
+    y: (
+      $spacer-y * .25
+    )
+  ),
+  2: (
+    x: (
+      $spacer-x * .5
+    ),
+    y: (
+      $spacer-y * .5
+    )
+  ),
+  3: (
+    x: $spacer-x,
+    y: $spacer-y
+  ),
+  4: (
+    x: (
+      $spacer-x * 1.5
+    ),
+    y: (
+      $spacer-y * 1.5
+    )
+  ),
+  5: (
+    x: (
+      $spacer-x * 2
+    ),
+    y: (
+      $spacer-y * 2
+    )
+  )
 ) !default;
 
 //******************Chevron

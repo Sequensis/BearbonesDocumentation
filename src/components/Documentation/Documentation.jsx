@@ -127,14 +127,6 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="components/hero"
-                title="Hero"
-                subTitle="A component which extends to the whole horizontal viewport,
-                used to showcase key messaging."
-              />
-            </div>
-            <div className="column one-third-lg column-8-md">
-              <DocumentationBox
                 link="components/media"
                 title="Media"
                 subTitle="This component is used to create repetitive elements
@@ -186,21 +178,29 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="layout/basic"
                 title="Basic"
                 subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="layout/grid"
                 title="Grid"
                 subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="layout/hero"
+                title="Hero"
+                subTitle="A component which extends to the whole horizontal viewport,
+                used to showcase key messaging."
+              />
+            </div>
+            <div className="column one-third-lg column-8-md">
+              <DocumentationBox
+                link="layout/family-grid"
                 title="Family grid"
                 subTitle="Coming soon..."
               />
@@ -214,20 +214,48 @@ export default class Documentation extends Component {
               <DocumentationBox
                 link="example"
                 title="Display"
+                subTitle="Easily be able to toggle through display properties with these helper classes."
+              />
+            </div>
+            <div className="column one-third-lg column-8-md">
+              <DocumentationBox
+                link="example"
+                title="Flex"
+                subTitle="Easily be able to toggle through flex properties with these helper classes."
+              />
+            </div>
+            <div className="column one-third-lg column-8-md">
+              <DocumentationBox
+                link="example"
+                title="List"
                 subTitle="Coming soon..."
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
+                title="Position"
+                subTitle="Easily be able to toggle through position properties with these helper classes."
+              />
+            </div>
+            <div className="column one-third-lg column-8-md">
+              <DocumentationBox
+                link="utilities/spacing"
                 title="Spacing"
-                subTitle="Coming soon..."
+                subTitle="Easily be able to seet the margin and / or padding of various elements."
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
                 title="Typography"
+                subTitle="Coming soon..."
+              />
+            </div>
+            <div className="column one-third-lg column-8-md">
+              <DocumentationBox
+                link="example"
+                title="Visibility"
                 subTitle="Coming soon..."
               />
             </div>

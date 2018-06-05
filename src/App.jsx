@@ -13,7 +13,6 @@ import DividerDocumentation from './components/Documentation/Components/DividerD
 import DropdownDocumentation from './components/Documentation/Components/DropdownDocumentation';
 import FieldDocumentation from './components/Documentation/Components/FieldDocumentation';
 import FooterDocumentation from './components/Documentation/Components/FooterDocumentation';
-import HeroDocumentation from './components/Documentation/Components/HeroDocumentation';
 import MediaDocumentation from './components/Documentation/Components/MediaDocumentation';
 import NavbarDocumentation from './components/Documentation/Components/NavbarDocumentation';
 import PaginationDocumentation from './components/Documentation/Components/PaginationDocumentation';
@@ -21,6 +20,8 @@ import StatDocumentation from './components/Documentation/Components/StatDocumen
 import TabDocumentation from './components/Documentation/Components/TabDocumentation';
 import TableDocumentation from './components/Documentation/Components/TableDocumentation';
 import Documentation from './components/Documentation/Documentation';
+import HeroDocumentation from './components/Documentation/Layout/HeroDocumentation';
+import SpacingDocumentation from './components/Documentation/Utilities/SpacingDocumentation';
 import PageNotFound from './components/Error/PageNotFound';
 import Home from './components/Home/Home';
 import DocumentationNavigation from './components/Shared/DocumentationNavigation';
@@ -104,11 +105,6 @@ export default class App extends Component {
                     />
                     <Route
                       exact
-                      path="/documentation/components/hero"
-                      component={HeroDocumentation}
-                    />
-                    <Route
-                      exact
                       path="/documentation/components/media"
                       component={MediaDocumentation}
                     />
@@ -136,6 +132,16 @@ export default class App extends Component {
                       exact
                       path="/documentation/components/table"
                       component={TableDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/layout/hero"
+                      component={HeroDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/utilities/spacing"
+                      component={SpacingDocumentation}
                     />
                     <Route path="*" component={PageNotFound} />
                   </Switch>
