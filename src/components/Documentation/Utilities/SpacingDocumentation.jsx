@@ -15,7 +15,6 @@ export default class SpacingDocumentation extends Component {
                 manageable than creating your own classes.
               </p>
             </div>
-            <DocumentationVariabes name="$Spacer" value="1rem" />
           </div>
           <div className="bb-grid md">
             <div className="column column-8">
@@ -40,9 +39,9 @@ export default class SpacingDocumentation extends Component {
               <table className="bb-table striped full-x">
                 <tbody>
                   <tr className="primary font-weight-bold">
-                    <td>First letter</td>
-                    <td>Second letter</td>
-                    <td>Third letter</td>
+                    <td>First</td>
+                    <td>Second</td>
+                    <td>Third</td>
                   </tr>
                   <tr>
                     <td>
@@ -119,6 +118,9 @@ export default class SpacingDocumentation extends Component {
               </table>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[{ name: '$spacer', value: '1rem' }]}
+          />
         </div>
       </div>
     );

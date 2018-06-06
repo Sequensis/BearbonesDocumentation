@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class BoxDocumentation extends Component {
   render() {
@@ -200,6 +201,23 @@ export default class BoxDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              {
+                name: '$box-variant-background',
+                value: '$base-variant-background'
+              },
+              { name: '$box-variant-color', value: '$base-variant-color' },
+              { name: '$box-variant-border', value: '$base-variant-border' },
+              {},
+              { name: '$box-border-radius', value: '$border-radius' },
+              { name: '$box-border-style', value: '$border-style' },
+              { name: '$box-border-width', value: '$border-width' },
+              {},
+              { name: '$box-spacing-x', value: '1rem' },
+              { name: '$box-spacing-y', value: '1.5rem' }
+            ]}
+          />
         </div>
       </div>
     );

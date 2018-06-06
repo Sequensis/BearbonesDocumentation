@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class TableDocumentaion extends Component {
   render() {
@@ -814,6 +815,39 @@ export default class TableDocumentaion extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              { name: '$table-variant-background', value: ' $lighter-grey' },
+              {
+                name: '$table-variant-color',
+                value: ' $base-variant-background'
+              },
+              {
+                name: '$table-variant-border',
+                value: ' darken($table-variant-background, 12%)'
+              },
+              {
+                name: '$table-variant-hover',
+                value: ' darken($table-variant-background, 12%)'
+              },
+              {
+                name: '$table-variant-active',
+                value: ' darken($table-variant-background, 12%)'
+              },
+              {},
+              { name: '$table-border-radius', value: ' $border-radius * 2' },
+              { name: '$table-border-style', value: ' $border-style' },
+              { name: '$table-border-width', value: ' $border-width / 2' },
+              {},
+              { name: '$table-spacing-x', value: ' .75rem' },
+              { name: '$table-spacing-y', value: ' .75rem' },
+              {},
+              {
+                name: '$table-transition',
+                value: ' all $transition-effect $transition-duration'
+              }
+            ]}
+          />
         </div>
       </div>
     );

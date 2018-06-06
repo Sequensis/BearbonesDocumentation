@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class ButtonDocumentation extends Component {
   render() {
@@ -688,6 +689,36 @@ Icon</button>`}
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              {
+                name: '$button-variant-background',
+                value: '$base-variant-background'
+              },
+              { name: '$button-variant-color', value: '$base-variant-color' },
+              { name: '$button-variant-border', value: '$base-variant-border' },
+              { name: '$button-variant-hover', value: '$base-variant-hover' },
+              { name: '$button-variant-active', value: '$base-variant-active' },
+              {},
+              { name: '$button-border-radius', value: '$border-radius' },
+              { name: '$button-border-style', value: '$border-style' },
+              { name: '$button-border-width', value: '$border-width' },
+              {},
+              { name: '$button-font-family', value: '$heading-font-family' },
+              { name: '$button-font-size', value: '$font-size' },
+              { name: '$button-font-weight', value: '400' },
+              { name: '$button-line-height', value: '1.3' },
+              { name: '$button-text-transform', value: 'none' },
+              {},
+              { name: '$button-spacing-x', value: '.5rem' },
+              { name: '$button-spacing-y', value: '.5rem' },
+              {},
+              {
+                name: '$button-transition',
+                value: 'all $transition-effect $transition-duration'
+              }
+            ]}
+          />
         </div>
       </div>
     );

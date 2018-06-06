@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class MediaDocumentation extends Component {
   render() {
@@ -448,6 +449,18 @@ export default class MediaDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              { name: '$media-variant-border', value: '$light-grey' },
+              {},
+              { name: '$media-border-radius', value: '$border-width' },
+              { name: '$media-border-style', value: '$border-style' },
+              { name: '$media-border-width', value: '$border-width' },
+              {},
+              { name: '$media-spacing-x', value: '1rem' },
+              { name: '$media-spacing-y', value: '1rem' }
+            ]}
+          />
         </div>
       </div>
     );

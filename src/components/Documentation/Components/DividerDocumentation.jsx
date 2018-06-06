@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class DividerDocumentation extends Component {
   render() {
@@ -160,6 +161,28 @@ export default class DividerDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              { name: '$divider-variant-border', value: '$light-grey' },
+              {
+                name: '$divider-variant-color',
+                value: '$base-variant-background'
+              },
+              {},
+              { name: '$divider-border-radius', value: '$border-width' },
+              { name: '$divider-border-style', value: '$border-style' },
+              { name: '$divider-border-width', value: '$border-width / 2' },
+              {},
+              {
+                name: '$divider-content-border-width',
+                value: '$divider-border-width * 1.5'
+              },
+              { name: '$divider-font-weight', value: '500' },
+              {},
+              { name: '$divider-spacing-x', value: '1rem' },
+              { name: '$divider-spacing-y', value: '1.5rem' }
+            ]}
+          />
         </div>
       </div>
     );

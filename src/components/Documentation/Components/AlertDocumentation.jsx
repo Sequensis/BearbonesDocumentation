@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class AlertDocumentation extends Component {
   render() {
@@ -147,6 +148,22 @@ export default class AlertDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              {
+                name: '$alert-variant-background',
+                value: '$base-variant-background'
+              },
+              { name: '$alert-variant-color', value: '$base-variant-color' },
+              { name: '$alert-variant-border', value: '$base-variant-border' },
+              {},
+              { name: '$alert-border-radius', value: '$border-radius' },
+              { name: '$alert-border-style', value: '$border-style' },
+              { name: '$alert-border-width', value: '$border-width' },
+              {},
+              { name: '$alert-spacing', value: '1rem' }
+            ]}
+          />
         </div>
       </div>
     );

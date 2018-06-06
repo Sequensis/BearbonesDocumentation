@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class BreadcrumbDocumentation extends Component {
   render() {
@@ -242,6 +243,18 @@ export default class BreadcrumbDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              { name: '$breadcrumb-variant-background', value: 'transparent' },
+              { name: '$breadcrumb-variant-color', value: '$base-color' },
+              { name: '$breadcrumb-variant-active', value: '$secondary-color' },
+              { name: '$breadcrumb-divider', value: "'|'" },
+              { name: '$breadcrumb-variant-divider', value: '$base-color' },
+              {},
+              { name: '$breadcrumb-item-spacing', value: '1rem' },
+              { name: '$breadcrumb-spacing', value: '1rem' }
+            ]}
+          />
         </div>
       </div>
     );

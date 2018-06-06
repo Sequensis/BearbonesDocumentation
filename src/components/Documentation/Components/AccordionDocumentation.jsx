@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
 import { Accordion, AccordionItem } from '../../Shared/Accordion';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 export default class AccordionDocumentation extends Component {
   render() {
     return (
@@ -239,6 +240,57 @@ export default class AccordionDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              {
+                name: '$accordion-variant-background',
+                value: 'transparent'
+              },
+              { name: '$accordion-variant-border', value: '$lighter-grey' },
+              { name: '$accordion-variant-toggle', value: '$light-grey' },
+              { name: '$accordion-variant-active', value: '$light-grey' },
+              {},
+              { name: '$accordion-border-style', value: '$border-style' },
+              { name: '$accordion-border-width', value: '$border-width' },
+              { name: '$accordion-border-radius', value: '$border-radius' },
+              {},
+              {
+                name: '$accordion-heading-font-family',
+                value: '$font-family'
+              },
+              {
+                name: '$accordion-heading-font-size',
+                value: '$font-size-xl'
+              },
+              {
+                name: '$accordion-heading-font-weight',
+                value: '$font-weight-bold'
+              },
+              {
+                name: '$accordion-subheading-font-family',
+                value: '$font-family'
+              },
+              {
+                name: '$accordion-subheading-font-size',
+                value: '$font-size-lg'
+              },
+              {
+                name: '$accordion-subheading-font-weight',
+                value: '$font-weight-bold'
+              },
+              {},
+              { name: '$accordion-heading-spacing-x', value: '0' },
+              { name: '$accordion-heading-spacing-y', value: '1rem' },
+              { name: '$accordion-content-spacing-x', value: '1rem' },
+              { name: '$accordion-content-spacing-y', value: '1rem' },
+              { name: '$accordion-toggle-spacing', value: '0 .5rem 0 0' },
+              {},
+              {
+                name: '$accordion-toggle-transition',
+                value: 'all $transition-effect $transition-duration'
+              }
+            ]}
+          />
         </div>
       </div>
     );

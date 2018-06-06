@@ -151,7 +151,6 @@ $transition-duration: .25s !default;
 
 // Accordion //
 
-//
 $accordion-variant-background: transparent !default;
 $accordion-variant-border: $lighter-grey !default;
 $accordion-variant-toggle: $light-grey !default;
@@ -178,7 +177,6 @@ $accordion-toggle-transition: all $transition-effect $transition-duration !defau
 
 // Alert //
 
-//
 $alert-variant-background: $base-variant-background !default;
 $alert-variant-color: $base-variant-color !default;
 $alert-variant-border: $base-variant-border !default;
@@ -186,7 +184,6 @@ $alert-variant-border: $base-variant-border !default;
 $alert-border-radius: $border-radius !default;
 $alert-border-style: $border-style !default;
 $alert-border-width: $border-width !default;
-$alert-border-radius: $border-radius !default;
 //
 $alert-spacing: 1rem !default;
 
@@ -210,7 +207,6 @@ $loader-spinner-transition-duration: 1s !default;
 
 // Box //
 
-//
 $box-variant-background: $base-variant-background !default;
 $box-variant-color: $base-variant-color !default;
 $box-variant-border: $base-variant-border !default;
@@ -224,7 +220,6 @@ $box-spacing-y: 1.5rem !default;
 
 // Breadcrumb //
 
-//
 $breadcrumb-variant-background: transparent !default;
 $breadcrumb-variant-color: $base-color !default;
 $breadcrumb-variant-active: $secondary-color !default;
@@ -258,7 +253,6 @@ $button-spacing-x: .5rem !default;
 $button-spacing-y: .5rem !default;
 //
 $button-transition: all $transition-effect $transition-duration !default;
-
 // Close button
 $button-close-icon-size: .125rem !default;
 $button-close-size: 1.25rem !default;
@@ -267,7 +261,6 @@ $button-close-size-sm: 1.05rem !default;
 $button-close-size-lg: 1.45rem !default;
 $button-close-size-xl: 1.65rem !default;
 $button-close-transform: translateX(-50%) translateY(-50%) rotate(45deg) !default;
-
 // Loading button
 $button-loader-border: .1rem !default;
 $button-loader-circle: 50% !default;
@@ -306,9 +299,7 @@ $divider-border-width: $border-width / 2 !default;
 //
 $divider-content-border-width: $divider-border-width * 1.5 !default;
 $divider-font-weight: 500 !default;
-$divider-icon-font-size: 1rem !default;
 //
-$divider-icon-spacing: 0 !default;
 $divider-spacing-x: 1rem !default;
 $divider-spacing-y: 1.5rem !default;
 
@@ -390,8 +381,8 @@ $media-border-radius: $border-width !default;
 $media-border-style: $border-style !default;
 $media-border-width: $border-width !default;
 //
-$media-spacing-x: $padding !default;
-$media-spacing-y: $padding / 1.5 !default;
+$media-spacing-x: 1rem !default;
+$media-spacing-y: 1rem !default;
 
 //******************Navbar //
 
@@ -450,7 +441,6 @@ $pagination-spacing-y: .5rem !default;
 $pagination-spacing-x: .75rem !default;
 //
 $pagination-transition: all $transition-effect $transition-duration !default;
-
 // Dots
 $pagination-dot-border-radius: $border-radius-circle !default;
 $pagination-dot-size: .3rem !default;
@@ -470,7 +460,7 @@ $stat-text-font-weight: 600 !default;
 $stat-text-font-size: $stat-value-font-size / 2 !default;
 $stat-line-height: 1em !default;
 //
-$stat-spacing: $padding !default;
+$stat-spacing: 1rem !default;
 //
 $stat-value-font-size-xs: $stat-value-font-size - 1.5rem !default;
 $stat-value-font-size-sm: $stat-value-font-size - .75rem !default;

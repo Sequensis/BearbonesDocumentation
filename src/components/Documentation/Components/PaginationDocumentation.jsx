@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class PaginationDocumentation extends Component {
   render() {
@@ -882,6 +883,53 @@ export default class PaginationDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              {
+                name: '$pagination-variant-background',
+                value: '$base-variant-background'
+              },
+              {
+                name: '$pagination-variant-color',
+                value: '$base-variant-color'
+              },
+              {
+                name: '$pagination-variant-border',
+                value: '$base-variant-border'
+              },
+              {
+                name: '$pagination-variant-hover',
+                value: '$base-variant-hover'
+              },
+              {
+                name: '$pagination-variant-active',
+                value: '$base-variant-active'
+              },
+              {},
+              { name: '$pagination-border-radius', value: '$border-radius' },
+              { name: '$pagination-border-style', value: '$border-style' },
+              { name: '$pagination-border-width', value: '$border-width' },
+              {},
+              { name: '$pagination-font-size', value: '$font-size' },
+              { name: '$pagination-font-weight', value: '500' },
+              {},
+              { name: '$pagination-min-width', value: '3rem' },
+              { name: '$pagination-spacing-y', value: '.5rem' },
+              { name: '$pagination-spacing-x', value: '.75rem' },
+              {},
+              {
+                name: '$pagination-transition',
+                value: 'all $transition-effect $transition-duration'
+              },
+              {},
+              {
+                name: '$pagination-dot-border-radius',
+                value: '$border-radius-circle'
+              },
+              { name: '$pagination-dot-size', value: '.3rem' },
+              { name: '$pagination-dot-spacing', value: '.1rem' }
+            ]}
+          />
         </div>
       </div>
     );

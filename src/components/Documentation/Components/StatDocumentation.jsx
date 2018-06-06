@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class PaginationDocumentation extends Component {
   render() {
@@ -334,6 +335,52 @@ export default class PaginationDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              {
+                name: '$stat-value-font-family',
+                value: '$heading-font-family'
+              },
+              { name: '$stat-value-font-weight', value: '400' },
+              { name: '$stat-value-font-size', value: '3rem' },
+              { name: '$stat-value-text-transform', value: 'uppercase' },
+              {
+                name: '$stat-label-font-family',
+                value: '$heading-font-family'
+              },
+              { name: '$stat-label-font-weight', value: '600' },
+              {
+                name: '$stat-label-font-size',
+                value: '$stat-value-font-size / 4'
+              },
+              { name: '$stat-label-text-transform', value: 'uppercase' },
+              { name: '$stat-text-font-weight', value: '600' },
+              {
+                name: '$stat-text-font-size',
+                value: '$stat-value-font-size / 2'
+              },
+              { name: '$stat-line-height', value: '1em' },
+              {},
+              { name: '$stat-spacing', value: '1rem' },
+              {},
+              {
+                name: '$stat-value-font-size-xs',
+                value: '$stat-value-font-size - 1.5rem'
+              },
+              {
+                name: '$stat-value-font-size-sm',
+                value: '$stat-value-font-size - .75rem'
+              },
+              {
+                name: '$stat-value-font-size-lg',
+                value: '$stat-value-font-size + .75rem'
+              },
+              {
+                name: '$stat-value-font-size-xl',
+                value: '$stat-value-font-size + 1.5rem'
+              }
+            ]}
+          />
         </div>
       </div>
     );

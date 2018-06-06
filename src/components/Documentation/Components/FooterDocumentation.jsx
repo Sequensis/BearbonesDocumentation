@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Highlight from 'react-highlight';
+import DocumentationVariabes from '../../Shared/DocumentationVariables';
 
 export default class FooterDocumentation extends Component {
   render() {
@@ -174,6 +175,25 @@ export default class FooterDocumentation extends Component {
               </div>
             </div>
           </div>
+          <DocumentationVariabes
+            variables={[
+              {
+                name: '$footer-variant-background',
+                value: '$lighter-grey'
+              },
+              { name: '$footer-variant-color', value: '$base-color' },
+              {},
+              {
+                name: '$footer-box-shadow',
+                value: '0 0 1.5rem 0 rgba(10, 10, 10, .1)'
+              },
+              {},
+              {
+                name: '$footer-spacing',
+                value: '3rem $layout-spacing-x 6rem $layout-spacing-x'
+              }
+            ]}
+          />
         </div>
       </div>
     );
