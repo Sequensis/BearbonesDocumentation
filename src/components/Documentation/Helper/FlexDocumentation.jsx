@@ -25,7 +25,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-first</code>
+                        <code>flex-first</code>
                       </span>
                     </td>
                     <td>
@@ -35,7 +35,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-last</code>
+                        <code>flex-last</code>
                       </span>
                     </td>
                     <td>
@@ -45,7 +45,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-unordered</code>
+                        <code>flex-unordered</code>
                       </span>
                     </td>
                     <td>
@@ -55,7 +55,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-row</code>
+                        <code>flex-row</code>
                       </span>
                     </td>
                     <td>
@@ -65,7 +65,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-column</code>
+                        <code>flex-column</code>
                       </span>
                     </td>
                     <td>
@@ -75,7 +75,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-row-reverse</code>
+                        <code>flex-row-reverse</code>
                       </span>
                     </td>
                     <td>
@@ -85,7 +85,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-column-reverse</code>
+                        <code>flex-column-reverse</code>
                       </span>
                     </td>
                     <td>
@@ -95,7 +95,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-wrap</code>
+                        <code>flex-wrap</code>
                       </span>
                     </td>
                     <td>
@@ -105,7 +105,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-nowrap</code>
+                        <code>flex-nowrap</code>
                       </span>
                     </td>
                     <td>
@@ -115,7 +115,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-wrap-reverse</code>
+                        <code>flex-wrap-reverse</code>
                       </span>
                     </td>
                     <td>
@@ -125,7 +125,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.flex-1</code>
+                        <code>flex-1</code>
                       </span>
                     </td>
                     <td>
@@ -135,7 +135,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.justify-content-start</code>
+                        <code>justify-content-start</code>
                       </span>
                     </td>
                     <td>
@@ -145,7 +145,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.justify-content-end</code>
+                        <code>justify-content-end</code>
                       </span>
                     </td>
                     <td>
@@ -155,7 +155,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.justify-content-center</code>
+                        <code>justify-content-center</code>
                       </span>
                     </td>
                     <td>
@@ -165,7 +165,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.justify-content-between</code>
+                        <code>justify-content-between</code>
                       </span>
                     </td>
                     <td>
@@ -175,7 +175,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.justify-content-around</code>
+                        <code>justify-content-around</code>
                       </span>
                     </td>
                     <td>
@@ -185,7 +185,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-items-start</code>
+                        <code>align-items-start</code>
                       </span>
                     </td>
                     <td>
@@ -195,7 +195,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-items-end</code>
+                        <code>align-items-end</code>
                       </span>
                     </td>
                     <td>
@@ -205,7 +205,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-items-center</code>
+                        <code>align-items-center</code>
                       </span>
                     </td>
                     <td>
@@ -215,7 +215,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-items-baseline</code>
+                        <code>align-items-baseline</code>
                       </span>
                     </td>
                     <td>
@@ -225,7 +225,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-items-stretch</code>
+                        <code>align-items-stretch</code>
                       </span>
                     </td>
                     <td>
@@ -235,7 +235,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-content-start</code>
+                        <code>align-content-start</code>
                       </span>
                     </td>
                     <td>
@@ -245,7 +245,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-content-end</code>
+                        <code>align-content-end</code>
                       </span>
                     </td>
                     <td>
@@ -255,7 +255,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-content-center</code>
+                        <code>align-content-center</code>
                       </span>
                     </td>
                     <td>
@@ -265,7 +265,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-content-between</code>
+                        <code>align-content-between</code>
                       </span>
                     </td>
                     <td>
@@ -275,7 +275,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-content-around</code>
+                        <code>align-content-around</code>
                       </span>
                     </td>
                     <td>
@@ -285,7 +285,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-content-stretch</code>
+                        <code>align-content-stretch</code>
                       </span>
                     </td>
                     <td>
@@ -295,7 +295,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-self-auto</code>
+                        <code>align-self-auto</code>
                       </span>
                     </td>
                     <td>
@@ -305,7 +305,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-self-start</code>
+                        <code>align-self-start</code>
                       </span>
                     </td>
                     <td>
@@ -315,7 +315,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-self-end</code>
+                        <code>align-self-end</code>
                       </span>
                     </td>
                     <td>
@@ -325,7 +325,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-self-center</code>
+                        <code>align-self-center</code>
                       </span>
                     </td>
                     <td>
@@ -335,7 +335,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-self-baseline</code>
+                        <code>align-self-baseline</code>
                       </span>
                     </td>
                     <td>
@@ -345,7 +345,7 @@ export default class DisplayDocumentation extends Component {
                   <tr>
                     <td>
                       <span>
-                        <code>.align-self-stretch</code>
+                        <code>align-self-stretch</code>
                       </span>
                     </td>
                     <td>

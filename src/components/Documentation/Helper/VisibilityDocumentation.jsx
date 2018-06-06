@@ -25,14 +25,14 @@ export default class VisibilityDocumentation extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">.hidden</span>
+                      <span className="font-weight-bold">hidden</span>
                     </td>
                     <td>(all)</td>
                     <td>(all)</td>
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">.hidden</span>
+                      <span className="font-weight-bold">hidden</span>
                     </td>
                     <td>
                       <span className="font-weight-bold">-xs-</span>

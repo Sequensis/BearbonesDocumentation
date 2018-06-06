@@ -24,7 +24,7 @@ export default class PositionDocumentation extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">.p</span>
+                      <span className="font-weight-bold">p</span>
                     </td>
                     <td>
                       <span className="font-weight-bold">-absolute</span>

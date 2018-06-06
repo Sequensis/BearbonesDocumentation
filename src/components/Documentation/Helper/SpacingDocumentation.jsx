@@ -45,7 +45,7 @@ export default class SpacingDocumentation extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">.m</span> (margin)
+                      <span className="font-weight-bold">m</span> (margin)
                     </td>
                     <td>
                       <span className="font-weight-bold">-</span> (all)
@@ -56,7 +56,7 @@ export default class SpacingDocumentation extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">.p</span> (padding)
+                      <span className="font-weight-bold">p</span> (padding)
                     </td>
                     <td>
                       <span className="font-weight-bold">-t-</span> (top)
