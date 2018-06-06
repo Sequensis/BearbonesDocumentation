@@ -108,7 +108,7 @@ class Home extends Component {
                     Sass and <a href="">Font Awesome 5</a>.
                   </p>
                 </div>
-                <div className="column one-third text-center-lg">
+                <div className="column one-third text-center-lg text-right">
                   <p>
                     <i className="fal fa-thumbs-up fa-5x text-secondary m-b-3" />
                   </p>
