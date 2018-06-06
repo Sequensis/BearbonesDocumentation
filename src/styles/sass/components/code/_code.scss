@@ -32,5 +32,8 @@ code {
 	border-radius: $border-radius;
 	background: $primary-color;
 	color: $primary-pair;
+}
+
+.bb-table code {
 	white-space: nowrap;
 }
