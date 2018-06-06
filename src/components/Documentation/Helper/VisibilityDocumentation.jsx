@@ -9,7 +9,7 @@ export default class VisibilityDocumentation extends Component {
             <div className="column column-16">
               <h1 className="title">Visibility</h1>
               <p className="subtitle">
-                Easily be able to toggle through visibility of elements with
+                Easily be able to toggle through the visibility of elements with
                 these helper classes.
               </p>
             </div>

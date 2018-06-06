@@ -17,23 +17,26 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="#"
                 title="Installing Bearbones"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="#"
                 title="Importing"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="#"
                 title="Variables"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
           </div>
@@ -61,6 +64,7 @@ export default class Documentation extends Component {
                 link="components/animation"
                 title="Animation"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -90,6 +94,7 @@ export default class Documentation extends Component {
                 link="components/card"
                 title="Card"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -104,6 +109,7 @@ export default class Documentation extends Component {
                 link="components/dropdown"
                 title="Dropdown"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -111,6 +117,7 @@ export default class Documentation extends Component {
                 link="components/field"
                 title="Field"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -134,6 +141,7 @@ export default class Documentation extends Component {
                 link="components/navbar"
                 title="Navbar"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -157,6 +165,7 @@ export default class Documentation extends Component {
                 link="components/tab"
                 title="Tab"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -177,6 +186,7 @@ export default class Documentation extends Component {
                 link="layout/basic"
                 title="Basic"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -184,6 +194,7 @@ export default class Documentation extends Component {
                 link="layout/grid"
                 title="Grid"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -199,6 +210,7 @@ export default class Documentation extends Component {
                 link="layout/family-grid"
                 title="Family grid"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
           </div>
@@ -222,9 +234,10 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="#"
                 title="List"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
@@ -243,16 +256,17 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="#"
                 title="Typography"
                 subTitle="Coming soon..."
+                className="disabled"
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="helper/visibility"
                 title="Visibility"
-                subTitle="Easily be able to toggle through visibility of elements with these helper classes."
+                subTitle="Easily be able to toggle through the visibility of elements with these helper classes."
               />
             </div>
           </div>

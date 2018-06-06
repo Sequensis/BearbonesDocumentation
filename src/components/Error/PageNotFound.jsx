@@ -13,7 +13,7 @@ class PageNotFound extends Component {
       <section className="hero illustration space full-y">
         <div className="body">
           <div className="container">
-            <h1 className="title">404</h1>
+            <h1 className="title text-white">404</h1>
           </div>
         </div>
         {[...Array(this.largeStars)].map((e, i) => (

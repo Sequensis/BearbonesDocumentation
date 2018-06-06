@@ -87,4 +87,8 @@
 		transform: translateY(-.25rem);
 	}
 	will-change: box-shadow, transform;
+	&.disabled {
+		opacity: .4;
+		pointer-events: none;
+	}
 }
