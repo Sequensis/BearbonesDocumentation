@@ -212,7 +212,7 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="utilities/display"
                 title="Display"
                 subTitle="Easily be able to toggle through display properties with these helper classes."
               />

@@ -21,6 +21,7 @@ import TabDocumentation from './components/Documentation/Components/TabDocumenta
 import TableDocumentation from './components/Documentation/Components/TableDocumentation';
 import Documentation from './components/Documentation/Documentation';
 import HeroDocumentation from './components/Documentation/Layout/HeroDocumentation';
+import DisplayDocumentation from './components/Documentation/Utilities/DisplayDocumentation';
 import SpacingDocumentation from './components/Documentation/Utilities/SpacingDocumentation';
 import PageNotFound from './components/Error/PageNotFound';
 import Home from './components/Home/Home';
@@ -137,6 +138,11 @@ export default class App extends Component {
                       exact
                       path="/documentation/layout/hero"
                       component={HeroDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/utilities/display"
+                      component={DisplayDocumentation}
                     />
                     <Route
                       exact
