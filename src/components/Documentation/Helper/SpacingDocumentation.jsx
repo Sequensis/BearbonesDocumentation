@@ -22,14 +22,14 @@ export default class SpacingDocumentation extends Component {
               <p className="subtitle sm">
                 <ul>
                   <li>
-                    The first letter specifies whether you’re targeting the
+                    The first section specifies whether you’re targeting the
                     margin or padding.
                   </li>
                   <li>
-                    The second letter specifies the direction of the spacing.
+                    The second section specifies the direction of the spacing.
                   </li>
                   <li>
-                    The third letter specifies the amount of spacing, relative
+                    The third section specifies the amount of spacing, relative
                     to the initial variable.
                   </li>
                 </ul>
@@ -45,7 +45,7 @@ export default class SpacingDocumentation extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">m</span> (margin)
+                      <span className="font-weight-bold">.m</span> (margin)
                     </td>
                     <td>
                       <span className="font-weight-bold">-</span> (all)
@@ -56,7 +56,7 @@ export default class SpacingDocumentation extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">p</span> (padding)
+                      <span className="font-weight-bold">.p</span> (padding)
                     </td>
                     <td>
                       <span className="font-weight-bold">-t-</span> (top)

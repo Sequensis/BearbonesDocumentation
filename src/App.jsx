@@ -24,6 +24,7 @@ import DisplayDocumentation from './components/Documentation/Helper/DisplayDocum
 import FlexDocumentation from './components/Documentation/Helper/FlexDocumentation';
 import PositionDocumentation from './components/Documentation/Helper/PositionDocumentation';
 import SpacingDocumentation from './components/Documentation/Helper/SpacingDocumentation';
+import VisibilityDocumentation from './components/Documentation/Helper/VisibilityDocumentation';
 import HeroDocumentation from './components/Documentation/Layout/HeroDocumentation';
 import PageNotFound from './components/Error/PageNotFound';
 import Home from './components/Home/Home';
@@ -160,6 +161,11 @@ export default class App extends Component {
                       exact
                       path="/documentation/helper/spacing"
                       component={SpacingDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/helper/visibility"
+                      component={VisibilityDocumentation}
                     />
                     <Route path="*" component={PageNotFound} />
                   </Switch>

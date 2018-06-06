@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 
-export default class PositionDocumentation extends Component {
+export default class VisibilityDocumentation extends Component {
   render() {
     return (
       <div className="section p-t-0">
         <div className="container">
           <div className="bb-grid md">
             <div className="column column-16">
-              <h1 className="title">Position</h1>
+              <h1 className="title">Visibility</h1>
               <p className="subtitle">
-                Easily be able to toggle through position properties with these
-                helper classes.
+                Easily be able to toggle through visibility of elements with
+                these helper classes.
               </p>
             </div>
           </div>
@@ -21,38 +21,57 @@ export default class PositionDocumentation extends Component {
                   <tr className="primary font-weight-bold">
                     <td>First</td>
                     <td>Second</td>
+                    <td>Third</td>
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">.p</span>
+                      <span className="font-weight-bold">.hidden</span>
                     </td>
-                    <td>
-                      <span className="font-weight-bold">-absolute</span>
-                    </td>
+                    <td>(all)</td>
+                    <td>(all)</td>
                   </tr>
                   <tr>
-                    <td />
                     <td>
-                      <span className="font-weight-bold">-fixed</span>
+                      <span className="font-weight-bold">.hidden</span>
                     </td>
-                  </tr>
-                  <tr>
-                    <td />
                     <td>
-                      <span className="font-weight-bold">-relative</span>
+                      <span className="font-weight-bold">-xs-</span>
                     </td>
-                  </tr>
-                  <tr>
-                    <td />
                     <td>
-                      <span className="font-weight-bold">-static</span>
+                      <span className="font-weight-bold">down</span> (that width
+                      and smaller)
                     </td>
                   </tr>
                   <tr>
                     <td />
                     <td>
-                      <span className="font-weight-bold">-sticky</span>
+                      <span className="font-weight-bold">-sm-</span>
                     </td>
+                    <td>
+                      <span className="font-weight-bold">up</span> (that width
+                      and larger)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td />
+                    <td>
+                      <span className="font-weight-bold">-md-</span>
+                    </td>
+                    <td />
+                  </tr>
+                  <tr>
+                    <td />
+                    <td>
+                      <span className="font-weight-bold">-lg-</span>
+                    </td>
+                    <td />
+                  </tr>
+                  <tr>
+                    <td />
+                    <td>
+                      <span className="font-weight-bold">-xl-</span>
+                    </td>
+                    <td />
                   </tr>
                 </tbody>
               </table>

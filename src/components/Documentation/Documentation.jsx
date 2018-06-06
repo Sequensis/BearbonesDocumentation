@@ -9,10 +9,6 @@ export default class Documentation extends Component {
           <div className="bb-grid md">
             <div className="column column-sm">
               <h2 className="title">Documentation</h2>
-              {/* <p className="subtitle">
-                Aute laborum enim ex deserunt aute non commodo amet culpa ad.
-                Excepteur quis ipsum elit eiusmod fugiat est anim.
-              </p> */}
             </div>
           </div>
           <div className="bb-grid md">
@@ -254,9 +250,9 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="helper/visibility"
                 title="Visibility"
-                subTitle="Coming soon..."
+                subTitle="Easily be able to toggle through visibility of elements with these helper classes."
               />
             </div>
           </div>

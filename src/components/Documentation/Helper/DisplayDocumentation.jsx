@@ -24,7 +24,7 @@ export default class DisplayDocumentation extends Component {
                   </tr>
                   <tr>
                     <td>
-                      <span className="font-weight-bold">d</span>
+                      <span className="font-weight-bold">.d</span>
                     </td>
                     <td>
                       <span className="font-weight-bold">-none</span>

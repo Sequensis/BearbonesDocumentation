@@ -13,7 +13,7 @@ export default class DocumentationVariables extends Component {
           </a>
         </p>
         <div className="column scroll">
-          <table className="bb-table doc striped m-t-3">
+          <table className="bb-table doc striped m-t-5">
             <tbody>
               <tr className="font-weight-bold text-sm">
                 <td>Name</td>
