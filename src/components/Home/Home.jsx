@@ -50,21 +50,21 @@ class Home extends Component {
                     frameworks.
                   </p>
                   <div className="column m-t-3">
-                    <a className="bb-btn icon primary lg" id="cta-view-docs">
+                    {/* <a className="bb-btn icon primary lg" id="cta-view-docs">
                       Get started
                       <span>
                         <i className="fal fa-chevron-down" />
                       </span>
-                    </a>
-                    <a
+                    </a> */}
+                    <Link
+                      to="/documentation"
                       className="bb-btn icon primary lg outline hidden-lg-down"
-                      href="/documentation"
                     >
-                      Docs
-                      <span>
+                      Documentation
+                      <span className="p-l-2">
                         <i className="fal fa-file-alt" />
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
