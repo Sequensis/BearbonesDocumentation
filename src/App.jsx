@@ -21,6 +21,7 @@ import TabDocumentation from './components/Documentation/Components/TabDocumenta
 import TableDocumentation from './components/Documentation/Components/TableDocumentation';
 import Documentation from './components/Documentation/Documentation';
 import DisplayDocumentation from './components/Documentation/Helper/DisplayDocumentation';
+import FlexDocumentation from './components/Documentation/Helper/FlexDocumentation';
 import PositionDocumentation from './components/Documentation/Helper/PositionDocumentation';
 import SpacingDocumentation from './components/Documentation/Helper/SpacingDocumentation';
 import HeroDocumentation from './components/Documentation/Layout/HeroDocumentation';
@@ -144,6 +145,11 @@ export default class App extends Component {
                       exact
                       path="/documentation/helper/display"
                       component={DisplayDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/helper/flex"
+                      component={FlexDocumentation}
                     />
                     <Route
                       exact

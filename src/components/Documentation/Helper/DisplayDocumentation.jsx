@@ -16,7 +16,6 @@ export default class DisplayDocumentation extends Component {
           </div>
           <div className="bb-grid md">
             <div className="column column-8">
-              <h4 className="title">Basic</h4>
               <table className="bb-table striped full-x">
                 <tbody>
                   <tr className="primary font-weight-bold">

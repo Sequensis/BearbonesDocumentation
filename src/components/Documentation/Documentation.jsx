@@ -9,20 +9,20 @@ export default class Documentation extends Component {
           <div className="bb-grid md">
             <div className="column column-sm">
               <h2 className="title">Documentation</h2>
-              <p className="subtitle">
+              {/* <p className="subtitle">
                 Aute laborum enim ex deserunt aute non commodo amet culpa ad.
                 Excepteur quis ipsum elit eiusmod fugiat est anim.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="bb-grid md">
             <div className="column column-16">
-              <h3 className="text-primary">Initialisation</h3>
+              <h3 className="text-primary">Getting Started</h3>
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
                 link="example"
-                title="Getting Started"
+                title="Installing Bearbones"
                 subTitle="Coming soon..."
               />
             </div>
@@ -219,7 +219,7 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="helper/flex"
                 title="Flex"
                 subTitle="Easily be able to toggle through flex properties with these helper classes."
               />
