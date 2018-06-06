@@ -20,9 +20,10 @@ import StatDocumentation from './components/Documentation/Components/StatDocumen
 import TabDocumentation from './components/Documentation/Components/TabDocumentation';
 import TableDocumentation from './components/Documentation/Components/TableDocumentation';
 import Documentation from './components/Documentation/Documentation';
+import DisplayDocumentation from './components/Documentation/Helper/DisplayDocumentation';
+import PositionDocumentation from './components/Documentation/Helper/PositionDocumentation';
+import SpacingDocumentation from './components/Documentation/Helper/SpacingDocumentation';
 import HeroDocumentation from './components/Documentation/Layout/HeroDocumentation';
-import DisplayDocumentation from './components/Documentation/Utilities/DisplayDocumentation';
-import SpacingDocumentation from './components/Documentation/Utilities/SpacingDocumentation';
 import PageNotFound from './components/Error/PageNotFound';
 import Home from './components/Home/Home';
 import DocumentationNavigation from './components/Shared/DocumentationNavigation';
@@ -141,12 +142,17 @@ export default class App extends Component {
                     />
                     <Route
                       exact
-                      path="/documentation/utilities/display"
+                      path="/documentation/helper/display"
                       component={DisplayDocumentation}
                     />
                     <Route
                       exact
-                      path="/documentation/utilities/spacing"
+                      path="/documentation/helper/position"
+                      component={PositionDocumentation}
+                    />
+                    <Route
+                      exact
+                      path="/documentation/helper/spacing"
                       component={SpacingDocumentation}
                     />
                     <Route path="*" component={PageNotFound} />

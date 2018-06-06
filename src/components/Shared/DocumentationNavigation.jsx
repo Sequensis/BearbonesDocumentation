@@ -4,7 +4,7 @@ import Breadcrumbs from 'react-router-dynamic-breadcrumbs';
 const routes = {
   '/documentation/components': null,
   '/documentation/layout': null,
-  '/documentation/utilities': null
+  '/documentation/helper': null
 };
 
 export default class DocumentationNavigation extends Component {

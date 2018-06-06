@@ -208,11 +208,11 @@ export default class Documentation extends Component {
           </div>
           <div className="bb-grid md">
             <div className="column column-16">
-              <h3 className="text-primary">Utilities</h3>
+              <h3 className="text-primary">Helper</h3>
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="utilities/display"
+                link="helper/display"
                 title="Display"
                 subTitle="Easily be able to toggle through display properties with these helper classes."
               />
@@ -233,14 +233,14 @@ export default class Documentation extends Component {
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="example"
+                link="helper/position"
                 title="Position"
                 subTitle="Easily be able to toggle through position properties with these helper classes."
               />
             </div>
             <div className="column one-third-lg column-8-md">
               <DocumentationBox
-                link="utilities/spacing"
+                link="helper/spacing"
                 title="Spacing"
                 subTitle="Easily be able to seet the margin and / or padding of various elements."
               />
