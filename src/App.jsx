@@ -45,7 +45,7 @@ export default class App extends Component {
                   timeout={500}
                 >
                   <Switch location={location}>
-                    <Route exact path="/home" component={Home} />
+                    <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />
                     <Route
                       exact

@@ -14,6 +14,7 @@
 		overflow-x: hidden;
 		padding: 0;
 		width: 50%;
+
 		@include respond-to('lg') {
 			width: 75%;
 		}
@@ -24,7 +25,8 @@
 		transform: translateY(calc(-4rem + 20%));
 		animation: head-animation 2s forwards;
 		animation-timing-function: $transition-effect;
-		animation-delay: $transition-duration;
+		animation-delay: 1s;
+
 		will-change: head-animation;
 	}
 	.torso {
@@ -33,7 +35,8 @@
 		transform: translateX(-4rem);
 		animation: torso-animation 2s forwards;
 		animation-timing-function: $transition-effect;
-		animation-delay: $transition-duration;
+		animation-delay: 1s;
+
 		will-change: torso-animation;
 	}
 	.legs {
@@ -42,7 +45,8 @@
 		transform: translateY(calc(4rem - 70%));
 		animation: legs-animation 2s forwards;
 		animation-timing-function: $transition-effect;
-		animation-delay: $transition-duration;
+		animation-delay: 1s;
+
 		will-change: legs-animation;
 	}
 }
@@ -52,7 +56,7 @@
 	transform: translateY(calc(-2rem + 10%));
 	animation: intro-animation 1s forwards;
 	animation-timing-function: $transition-effect;
-	animation-delay: 2s;
+
 	will-change: intro-animation;
 }
 
@@ -123,12 +127,11 @@
 	.eyes {
 		animation: eye-flicker 4s infinite;
 
-		fill: $base-color;
+		fill: #181818;
 	}
 	.arm {
-		animation: arm-movement 6s infinite;
-
 		transform: translateY(0);
+		animation: arm-movement 6s infinite;
 	}
 }
 
@@ -161,7 +164,7 @@
 @keyframes eye-flicker {
 	0%,
 	90% {
-		fill: $base-color;
+		fill: #181818;
 	}
 	10% {
 		fill: $white;

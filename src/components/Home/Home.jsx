@@ -122,7 +122,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="section secondary">
+        <div className="section">
           <div className="body">
             <div className="container">
               <div className="bb-grid md align-items-center">
