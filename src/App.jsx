@@ -29,6 +29,7 @@ import HeroDocumentation from './components/Documentation/Layout/HeroDocumentati
 import PageNotFound from './components/Error/PageNotFound';
 import Home from './components/Home/Home';
 import DocumentationNavigation from './components/Shared/DocumentationNavigation';
+import Navbar from './components/Shared/Navbar';
 
 export default class App extends Component {
   render() {
@@ -36,6 +37,7 @@ export default class App extends Component {
       <div>
         <main>
           <Route path="/documentation" component={DocumentationNavigation} />
+          <Navbar />
           <Route
             render={({ location }) => (
               <TransitionGroup>

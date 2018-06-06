@@ -10,24 +10,24 @@ export default class Navbar extends Component {
           id="bottom-navbar"
         >
           <div className="bb-btns full-x no-border-radius">
-            <Link to="/home" className="bb-btn icon">
+            <Link to="/" className="bb-btn icon">
               <span>
                 <i className="fal fa-home" />
               </span>
               Home
             </Link>
-            <Link to="/about" className="bb-btn icon">
+            {/* <Link to="/about" className="bb-btn icon">
               <span>
                 <i className="fal fa-info" />
               </span>
               About
-            </Link>
+            </Link> */}
             {/* <a className="bb-btn icon" href="{{root}}/installation">
-                        <span>
-                            <i className="fal fa-wrench"></i>
-                        </span>
-                        Install
-                    </a> */}
+                <span>
+                    <i className="fal fa-wrench"></i>
+                </span>
+                Install
+            </a> */}
             <Link to="/documentation" className="bb-btn icon">
               <span>
                 <i className="fal fa-file-alt" />
